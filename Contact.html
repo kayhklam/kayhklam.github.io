@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kay Lam | Contact</title>
+  <link href="main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <header class="mainheader">
+
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Gallery
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Digital Art.html">Digital art</a>
+            <a href="Traditional.html">Paintings</a>
+            <a href="Sketches.html">Sketches</a>
+            <a href="Degree.html">Degree Show</a>
+          </div>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </nav>
+
+  </header>
+
+  <div class="content">
+
+    <div class="headtext">
+      <p>◂ Contact ▸</p>
+    </div>
+
+    <h2>For any enquiries, please email: kaylamartist@gmail.com</h2>
+  </div>
+
+  <footer> Copyright &#169 2019 Website by Kay Lam</footer>
+
+</body>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+</html>

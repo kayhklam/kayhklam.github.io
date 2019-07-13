@@ -1,0 +1,112 @@
+<section class="digitals">
+
+      <figure>
+        <h1>Digital Art</h1>
+        <p class="note">Created in Adobe Photoshop</p>
+
+        <figcaption>
+          <h2><i>Avatar Courage</i>, 2019</h2>
+          Commissioned card game artwork for TeaBoys Games Ltd , GamesHub
+        </figcaption>
+        <img src="Image/Avatar of Courage.jpg" alt="Commissioned artwork 2019" />
+      </figure>
+
+      <figure>
+        <figcaption>
+          <h2><i>Maria</i>, 2017</h2>
+          Portrait digital painting
+        </figcaption>
+        <img src="Image/Maria.jpg" alt="Portrait painting" />
+      </figure>
+
+      <figure>
+        <figcaption>
+          <h2><i>Daenerys Targaryen</i>, 2017</h2>
+          Fan Art - first digital painting
+        </figcaption>
+        <img src="Image/Daenerys Targaryen.jpeg" />
+      </figure>
+
+    </section>
+
+styles
+
+.mySlides{
+width: auto;
+
+.slide-caption {
+display: bottomleft;
+padding: 16px;
+background-color: none;
+
+/* BUTTONS */
+#prevBtn{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 70px;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#nextBtn{
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 70px;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+ <h1> Degree Show work</h1>
+
+  <h2><i>Fusion</i>, 2018</h2>
+
+  <p>140cm x 100cm</p>
+  <p>Giclée laminate matte print on Foamex board</p>
+  <p>This self-portrait sets two distinctive culinary styles against each other, creating a battleground where two
+    cultures fight for dominance. Baked beans in a Chinese bowl, English Breakfast in a Chinese teapot, a fried egg
+    eaten over rice with chopsticks. This is an analogous of the conflict of the experiences from my identity of
+    cultural duality.</p>
+  <p>Permanent artwork for Student Art Collection at Oxford Brookes University</p>
+
+  <img src="image/FUSION_Kay Lam.jpg" />
+
+  <p>Installation at the <i>Hoi Polloi</i> Degree Show 2018 at Oxford Brookes University</p>
+
+  <img src="Image/Installation Fusion.jpg" /><br> 
+
+  <h2><i>Where Do You Really Come From?</i>, 2018</h2>
+
+  <p>30cm x 50cm</p>
+  <p>Digital paintings, 1 min loop videos </p>
+  <p>A series of digitally painted self-portraits that takes a playful approach to tackling the issue of ethnic
+    stereotyping, editing my own facial features to assimilate my identity into the very stereotypes others impose upon
+    myself through their assumptions of my ethnicity.
+    Chinese, Tibetan, Korean and Japanese.</p>
+
+  <img src="image/Self-portraits ethnicity.jpg" />
+
+  <p>Merging each identity in a fluid, mirrored and off-sync manner.</p>
+  <p>Video installations at the <i>Hoi Polloi</i> Degree Show 2018 at Oxford Brookes University</p>
+
+  <img src="Image/Installation self-portraits ethnicity.jpg" /><br>
+
+  <h2><i>5 Nights</i>, 2017</h2>
+  <p>30.5cm x 40.6cm</p>
+  <p>Handmade 190gsm glossy photographic paper from film</p>
+
+  <p>Exhibited for <i>Outburst Film Festival</i> at Pegasus Theatre Oxford, 2017 </p>
+
+  <img src="Image/5 Nights install.jpg" /><br>
+
+  <p>Installation at the <i>Situate</i> second year degree show 2017 at Oxford Brookes University</p>
+
+  <img src="Image/5 nights (1).jpg" /><br>
+  <img src="image/5 nights (2).jpg" /><br>
+  <img src="Image/5 nights (3).jpg" /><br>
+  <img src="image/5 nights (4).jpg" /><br>
