@@ -59,7 +59,7 @@ body {
 
 .dropdown-content {
   display: none;
-  background-color: none;
+  background-color: grey 0.5;
   min-width: 100px;
   position: absolute;
   text-align: left;
@@ -70,7 +70,7 @@ body {
 .dropdown-content a {
   color: black;
   display: block;
-  padding: 5px 5px;
+  padding: 10px 5px;
   text-decoration: none;
 }
 
