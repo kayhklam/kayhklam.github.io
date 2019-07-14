@@ -19,6 +19,7 @@ body {
 
 .topnav {
   background-color: #deeaee;
+  border: none;
   text-align: center;
   width: auto;
   font-size: 20pt;
