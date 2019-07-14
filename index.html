@@ -3,13 +3,14 @@
 
 <head>
   <title>Kay Lam | Home</title>
-  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link href="main.css" rel="stylesheet" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
+
   <header class="mainheader">
     <nav>
       <div class="topnav" id="myTopnav">
@@ -33,61 +34,64 @@
 
   </header>
 
-  <!-- Slider Wrapper -->
-  <div class="css-slider-wrapper">
-    <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
-    <input type="radio" name="slider" class="slide-radio2" id="slider_2">
-    <input type="radio" name="slider" class="slide-radio3" id="slider_3">
+  <div class="homecontent">
+    <div class="mySlides fade">
 
+      <div class="digital">
+        <img src="image/Daenerys Targaryen.jpeg" alt="Daenerys Targaryen" />
+      </div>
 
-    <!-- Slider #1 -->
-    <div class="slider slide-1">
-      <img src="image/Daenerys Targaryen.jpeg" alt="">
     </div>
 
-    <!-- Slider #2 -->
-    <div class="slider slide-2">
-      <img src="image/Avatar of Courage.jpg" alt="">
+    <div class="mySlides fade">
+
+      <div class="digital">
+        <img src="image/Avatar of Courage.jpg" alt="Commissioned artwork 2019" />
+      </div>
+
     </div>
 
-    <!-- Slider #3 -->
-    <div class="slider slide-3">
-      <img src="image/Installation Fusion.jpg" alt="">
-    </div>
+    <div class="mySlides fade">
 
+      <div class="digital">
+        <img src="image/Installation Fusion.jpg" alt="Photograph Installation"/>
+      </div>
+
+    </div>
   </div>
+  
+  <footer>Copyright &#169 2019 Website by Kay Lam</footer>
+
+  <!-- TOP NAVIGATION SCRIPT -->
   <script>
-    var TIMEOUT = 6000;
-
-    var interval = setInterval(handleNext, TIMEOUT);
-
-    function handleNext() {
-
-      var $radios = $('input[class*=&quot;slide-radio&quot;]');
-      var $activeRadio = $('input[class*=&quot;slide-radio&quot;]:checked');
-
-      var currentIndex = $activeRadio.index();
-      var radiosLength = $radios.length;
-
-      $radios
-        .attr('checked', false);
-
-      if (currentIndex & gt;= radiosLength - 1) {
-
-        $radios
-          .first()
-          .attr('checked', true);
-
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
       } else {
-
-        $activeRadio
-          .next('input[class*=&quot;slide-radio&quot;]')
-          .attr('checked', true);
-
+        x.className = "topnav";
       }
-
     }
   </script>
+
+  <!-- SLIDE SHOW SCRIPT -->
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 8000);
+    }
+  </script>
+
 </body>
 
 </html>
