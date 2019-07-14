@@ -86,10 +86,9 @@ body {
 /* HOME */
 
 .homecontent .digital img{
-height: 100%;
-width: 100%;
-position: center;
-background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: center;
 }
 
 
