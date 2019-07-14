@@ -135,6 +135,12 @@ body {
 
 }
 
+.prev {
+  left: 5%;
+  
+}
+
+
 .content {
   background-color: white;
   margin: auto;
