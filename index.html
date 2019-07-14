@@ -4,11 +4,12 @@
 <head>
   <title>Kay Lam | Home</title>
   <link href="main.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<body class="homebody">
+<body>
 
   <header>
     <nav>
@@ -33,6 +34,7 @@
     </nav>
 
   </header>
+
   <div class="homecontent">
     <div class="mySlides fade">
 
@@ -60,6 +62,19 @@
   </div>
   <footer>Copyright &#169 2019 Website by Kay Lam</footer>
 
+  <!-- TOP NAVIGATION SCRIPT -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <!-- SLIDE SHOW SCRIPT -->
   <script>
     var slideIndex = 0;
     showSlides();
@@ -78,18 +93,5 @@
   </script>
 
 </body>
-
-
-
-<script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-</script>
 
 </html>
