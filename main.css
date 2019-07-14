@@ -147,6 +147,14 @@ body {
   max-width: 1200px;
 }
 
+.contactcontent {
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  max-width: 600px;
+}
+
 /* ABOUT */
 
 .aboutcontent {
