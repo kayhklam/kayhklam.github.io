@@ -270,6 +270,7 @@ footer {
   position: relative;
   
   }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 50px;
@@ -292,5 +293,5 @@ footer {
     display: block;
     width: 150px;
     text-align: left;
-    }
+  }
 }
