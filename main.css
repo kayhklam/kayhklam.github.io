@@ -244,7 +244,7 @@ footer {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 859px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev, .next,.text {font-size: 12px}
 }
 
 
