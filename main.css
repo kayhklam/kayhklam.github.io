@@ -226,13 +226,14 @@ body {
 /* FOOTER */
 footer {
   background-color: aquamarine;
-  bottom: 0%;
+  bottom: 0;
   color: black;
   margin: 0%;
   padding: 0 0 5px 0;
   position: absolute;
   text-align: right;
   width: 100%;
+  height: 20px;
 }
 
 
