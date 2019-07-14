@@ -256,8 +256,9 @@ footer {
     float: right;
     display: block;
     font-size: 30pt;
-   
+  }
 }
+
 @media screen and (max-width: 859px){
   .body{
     overflow: auto !important;
@@ -268,7 +269,7 @@ footer {
 @media screen and (max-width: 859px) {
   .topnav.responsive {
   position: relative;
-  
+
   }
 
   .topnav.responsive .icon {
