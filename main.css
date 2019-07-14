@@ -28,7 +28,7 @@ body {
 }
 
 .topnav a {
-  color: #b9b0b0;
+  color: darkslategrey;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 6px;
