@@ -157,6 +157,15 @@ body {
   max-width: 600px;
 }
 
+/* HOME */
+
+.homelogo {
+  position: absolute;
+  margin: auto;
+  padding: 0;
+  max-width: 100%;
+}
+
 /* ABOUT */
 
 .aboutcontent {
