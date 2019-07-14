@@ -258,6 +258,12 @@ footer {
     font-size: 30pt;
    
 }
+@media screen and (max-width: 859px){
+  .body{
+    overflow: auto !important;
+  }
+  
+}
 
 @media screen and (max-width: 859px) {
   .topnav.responsive {
