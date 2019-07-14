@@ -158,8 +158,8 @@ body {
 
 .homecontent .homelogo img{
   position: absolute;
-  margin-left: 300px;
-
+  padding-top: 30px;
+  margin-left: 600px;
   max-width: 300px;
 }
 
