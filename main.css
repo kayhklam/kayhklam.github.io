@@ -156,8 +156,8 @@ body {
 
 /* HOME */
 
-.homecontent .homelogo img{
-  display: block;
+.homelogo img{
+  position: absolute;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
