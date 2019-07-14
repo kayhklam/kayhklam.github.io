@@ -156,11 +156,12 @@ body {
 
 /* HOME */
 
-.homelogo img{
+.homecontent .homelogo img{
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin-left: 50%;
+  margin-right: 50%;
+  height: auto;
+  width: auto;
 }
 
 /* ABOUT */
