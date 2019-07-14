@@ -257,7 +257,7 @@ footer {
 
 
 /* NAVIGATION - RESPONSIVE RULES */
-@media screen and (min-width: 414px) {
+@media screen and (max-width: 859px) {
   .topnav a, .dropdown .dropbtn {
     display: none;
   }
@@ -270,7 +270,7 @@ footer {
    
 }
 
-@media screen and (max-width: 859px) {
+@media screen and (max-width: 400px) {
   .topnav.responsive {
   position: relative;
   
