@@ -162,7 +162,7 @@ body {
   max-width: 600px;
 }
 
-.aboutname img{
+.aboutname .profile img{
   display: block;
   margin-left: auto;
   margin-right: auto;
