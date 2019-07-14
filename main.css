@@ -240,7 +240,7 @@ footer {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 859px) {
   .prev, .next,.text {font-size: 11px}
 }
 
@@ -268,7 +268,7 @@ footer {
 
 @media screen and (max-width: 859px) {
   .topnav.responsive {
-  position: relative;
+    position: relative;
 
   }
 
