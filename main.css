@@ -92,6 +92,14 @@ body {
   box-shadow: none;
 }
 
+.homecontent .homelogo img{
+  position: absolute;
+  padding: 120px 0 0 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: auto;
+  z-index: 10!important;
+}
 
 /* MAIN IMAGE CONTENT */
 
@@ -154,16 +162,6 @@ body {
   max-width: 600px;
 }
 
-/* HOME */
-
-.homecontent .homelogo img{
-  position: absolute;
-  padding: 120px 0 0 0;
-  margin-left: 20%;
-  margin-right: 20%;
-  max-width: auto;
-  z-index: 10!important;
-}
 
 /* ABOUT */
 
@@ -318,6 +316,9 @@ footer {
 
 @media screen and (max-width: 1518px) {
   .homecontent .digital img {
-
+    max-height: auto;
+    width: 100%;
+    position: center;
+    padding: 0;
   }
 }
