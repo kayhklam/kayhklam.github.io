@@ -22,7 +22,7 @@ body {
   border: none;
   text-align: right;
   width: auto;
-  font-size: 20pt;
+  font-size: 14pt;
   padding: 30px ;
   margin-top: 0;
 }
@@ -55,7 +55,7 @@ body {
   background: none;
   border: none;
   color:darkslategrey;
-  font-size: 20pt;
+  font-size: 14pt;
   font-family: microsoft tai le;
   letter-spacing: 6px;
   padding: 5px;
@@ -65,7 +65,7 @@ body {
 .dropdown-content {
   display: none;
   background-color: none;
-  min-width: 300px;
+  min-width: 250px;
   position: absolute;
   text-align: left;
   z-index: 1;
