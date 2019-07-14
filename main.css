@@ -8,13 +8,8 @@ body {
 /* NAVIGATION */
 
 .mainheader {
-  background-image: url("image/Header\ BG.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: auto;
   padding: 0;
-  text-align: right;
+  text-align: left;
 }
 
 .topnav {
