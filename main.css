@@ -228,6 +228,7 @@ body {
 
 /* FOOTER */
 footer {
+  background-color: aquamarine;
   bottom: 0;
   color: black;
   margin: 0%;
@@ -236,7 +237,6 @@ footer {
   text-align: right;
   width: 100%;
   height: 20px;
-  
 }
 
 
