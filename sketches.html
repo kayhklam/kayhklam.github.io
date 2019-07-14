@@ -87,6 +87,19 @@
 
   <footer> Copyright &#169 2019 Website by Kay Lam</footer>
 
+  <!-- TOP NAVIGATION SCRIPT -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <!-- SLIDE SHOW SCRIPT -->
   <script>
     var slideIndex = 1;
     showSlides(slideIndex);
@@ -116,16 +129,7 @@
     }
   </script>
 
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
+
 </body>
 
 
