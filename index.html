@@ -10,88 +10,91 @@
 </head>
 
 <body>
-
-  <header class="mainheader">
-    <nav>
-      <div class="topnav" id="myTopnav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <div class="dropdown">
-          <button class="dropbtn">Gallery
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="digital art.html">Digital art</a>
-            <a href="traditional.html">Paintings</a>
-            <a href="sketches.html">Sketches</a>
-            <a href="degree.html">Degree Show</a>
-          </div>
-        </div>
-        <a href="contact.html">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-      </div>
-    </nav>
-
-  </header>
-
-  <div class="homecontent">
-    <div class="mySlides fade">
-
-      <div class="digital">
-        <img src="image/Daenerys Targaryen.jpeg" alt="Daenerys Targaryen" />
-      </div>
-
-    </div>
-
-    <div class="mySlides fade">
-
-      <div class="digital">
-        <img src="image/Avatar of Courage.jpg" alt="Commissioned artwork 2019" />
-      </div>
-
-    </div>
-
-    <div class="mySlides fade">
-
-      <div class="digital">
-        <img src="image/Installation Fusion.jpg" alt="Photograph Installation"/>
-      </div>
-
-    </div>
-  </div>
   
-  <footer>Copyright &#169 2019 Website by Kay Lam</footer>
+  <div id="container">
 
-  <!-- TOP NAVIGATION SCRIPT -->
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
+    <header class="mainheader">
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <div class="dropdown">
+            <button class="dropbtn">Gallery
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="digital art.html">Digital art</a>
+              <a href="traditional.html">Paintings</a>
+              <a href="sketches.html">Sketches</a>
+              <a href="degree.html">Degree Show</a>
+            </div>
+          </div>
+          <a href="contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+      </nav>
+
+    </header>
+
+    <div class="homecontent">
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Daenerys Targaryen.jpeg" alt="Daenerys Targaryen" />
+        </div>
+
+      </div>
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Avatar of Courage.jpg" alt="Commissioned artwork 2019" />
+        </div>
+
+      </div>
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Installation Fusion.jpg" alt="Photograph Installation" />
+        </div>
+
+      </div>
+    </div>
+
+    <footer>Copyright &#169 2019 Website by Kay Lam</footer>
+
+    <!-- TOP NAVIGATION SCRIPT -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
       }
-    }
-  </script>
+    </script>
 
-  <!-- SLIDE SHOW SCRIPT -->
-  <script>
-    var slideIndex = 0;
-    showSlides();
+    <!-- SLIDE SHOW SCRIPT -->
+    <script>
+      var slideIndex = 0;
+      showSlides();
 
-    function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 8000);
       }
-      slideIndex++;
-      if (slideIndex > slides.length) { slideIndex = 1 }
-      slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 8000);
-    }
-  </script>
-
+    </script>
+  </div>
 </body>
+
 
 </html>
