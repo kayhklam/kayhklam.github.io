@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kay Lam | Digital Art</title>
+  <link href="main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <header class="mainheader">
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Gallery
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="digital art.html">Digital art</a>
+            <a href="traditional.html">Paintings</a>
+            <a href="sketches.html">Sketches</a>
+            <a href="degree.html">Degree Show</a>
+          </div>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </nav>
+
+  </header>
+
+  <div class="content">
+    
+    <div class="headtext">
+      <p>◂ Digital paintings ▸</p>
+    </div>
+
+    <div class="digital-container">
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Avatar of Courage.jpg" alt="Commissioned artwork 2019">
+        </div>
+
+        <div class="sidetext">
+          <i>Avatar of Courage</i>, 2019 Commissioned card game artwork for GamesHub
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Maria.jpg" alt="Portrait painting" />
+        </div>
+
+        <div class="sidetext">
+          <i>Maria</i>, Portrait painting
+        </div>
+      </div>
+
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Self-portrait.jpg" alt="Portrait painting" />
+        </div>
+
+        <div class="sidetext">
+          <i>Self-portrait</i>, Portrait painting study
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Daenerys Targaryen.jpeg" alt="Daenerys Targaryen" />
+        </div>
+
+        <div class="sidetext">
+          <i>Daenerys Targaryen</i>, Fan Art Digital painting
+        </div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+</body>
+
+<footer>Copyright &#169 2019 Website by Kay Lam</footer>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+</html>
