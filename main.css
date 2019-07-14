@@ -85,7 +85,7 @@ body {
 
 /* HOME */
 
-.homecontent {
+.homecontent .digital img{
   position: relative;
   background-color: none;
   margin: auto;
