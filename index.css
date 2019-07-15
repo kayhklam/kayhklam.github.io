@@ -101,8 +101,7 @@ body {
   .homecontent .digital img{
     position: fixed;
     background-position: 0 50% 0 50%;
-    width: auto;
-
+    width: 100%;
   }
 }
 
