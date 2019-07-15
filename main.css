@@ -83,6 +83,9 @@ body {
 
 /* HOME */
 
+.homecontent {
+  height: auto;
+}
 
 .cb-slideshow li span { 
   width: 100%;
