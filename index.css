@@ -100,7 +100,6 @@ body {
 @media screen and (max-width: 1250px) {
   .homecontent .digital img{
     position: fixed;
-    background-position: 0 50% 0 50%;
     width: 100%;
   }
 }
