@@ -10,6 +10,7 @@ body {
 .mainheader {
   padding: 0;
   text-align: left;
+  z-index: 9999;
 }
 
 .topnav {
@@ -81,12 +82,6 @@ body {
   display: block;
 }
 
-.homecontent {
-  background-color: aqua;
-  position: relative;
-  height: 90%;
-  width: 100%;
-}
 
 .homecontent .digital{
   height: auto;
