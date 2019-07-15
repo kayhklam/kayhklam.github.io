@@ -10,7 +10,7 @@ body {
 .mainheader {
   padding: 0;
   text-align: left;
-  z-index: 10!important;
+  z-index: 9999!important;
 }
 
 .topnav {
