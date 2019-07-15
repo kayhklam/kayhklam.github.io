@@ -81,6 +81,11 @@ body {
   display: block;
 }
 
+.homecontent {
+  background-color: aqua;
+  height: 100%;
+  width: 100%;
+}
 
 .homecontent .digital img{
   height: auto;
@@ -88,8 +93,6 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin: 0;
-  padding: 0;
   border: none;
   box-shadow: none;
 }
