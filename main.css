@@ -260,13 +260,7 @@ footer {
 }
 
 /* IMAGE -RESPONSIVE RULES */
-@media screen and (max-width: 1518px) {
-  .homecontent .digital img {
-    position: fixed;
-    left: 50%;
 
-  }
-}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 750px) {
