@@ -10,7 +10,7 @@ body {
 .mainheader {
   padding: 0;
   text-align: left;
-  z-index: 9999;
+  z-index: 10!important;
 }
 
 .topnav {
@@ -83,17 +83,19 @@ body {
 }
 
 
-.homecontent .digital{
+.homecontent .digital img{
   height: auto;
   width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
+  margin: 0;
+  padding: 0;
   border: none;
   box-shadow: none;
 }
 
-.homecontent .homelogo{
+.homecontent .homelogo img{
   position: absolute;
   margin-left: auto;
   margin-right: auto;
