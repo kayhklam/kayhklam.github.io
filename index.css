@@ -19,7 +19,7 @@ body {
   text-align: left;
   width: auto;
   font-size: 14pt;
-  padding: 30px ;
+  padding: 40px ;
   margin-top: 0;
 }
 
@@ -114,6 +114,9 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+  .topnav {
+
+  }
   .topnav.responsive {
     position: relative;
 
