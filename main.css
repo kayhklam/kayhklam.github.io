@@ -97,13 +97,14 @@ body {
   box-shadow: none;
 }
 
-.homecontent .homelogo img{
-  position: absolute;
-  padding: 180px 0 0 0;
-  background-position: 50% 50%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: auto;
+.homecontent .homelogo img:empty{
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: 10!important;
 }
 
@@ -272,12 +273,19 @@ footer {
 
 @media screen and (orientation: portrait){
   .homecontent .digital img { max-width: 90%;}
+
+  .homelogo img {max-width: 90%;}
 }
 
 
-@media screem amd (orientation: landscape){
+
+@media screem and (orientation: landscape){
   .homecontent .digital img { max-height: 90%;}
+
+ .homelogo img {max-width: 90%;}
 }
+
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 750px) {
   .prev, .next,.text {font-size: 12px}
