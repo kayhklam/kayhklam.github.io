@@ -167,6 +167,11 @@ body {
   max-width: 600px;
 }
 
+.instaimg img {
+display: inline-block;
+}
+
+
 
 /* ABOUT */
 
