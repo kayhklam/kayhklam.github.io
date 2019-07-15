@@ -83,7 +83,10 @@ body {
 
 .homecontent {
   background-color: aqua;
-  height: 100%;
+  position: relative;
+  top: 40px;
+  left: 0;
+  height: 90%;
   width: 100%;
 }
 
