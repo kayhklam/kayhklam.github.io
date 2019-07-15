@@ -103,3 +103,56 @@ body {
   height: auto;
   z-index: 10!important;
 }
+
+/* NAVIGATION - RESPONSIVE RULES */
+
+@media screen and (max-width: 750px) {
+  .topnav a, .dropdown .dropbtn {
+    display: none;
+  }
+  
+  .topnav a.icon {
+    float: right;
+    display: block;
+    font-size: 28pt;
+   
+  }
+}
+
+@media screen and (max-width: 750px){
+  .body{
+    overflow: auto !important;
+  }
+  
+}
+
+@media screen and (max-width: 750px) {
+  .topnav.responsive {
+    position: relative;
+
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+  }
+  .topnav.responsive a {
+    
+    float: none;
+    display: block;
+    text-align: left;
+    
+  }
+
+  .topnav.responsive .dropdown {display: inline;}
+  .topnav.responsive .dropdown-content {position:relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 150px;
+    text-align: left;
+  }
+}
