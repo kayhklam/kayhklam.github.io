@@ -82,14 +82,15 @@ body {
   display: block;
 }
 
-.digital img{
+.homecontent .digital img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 
-.homelogo img{
+.homecontent .homelogo img{
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
