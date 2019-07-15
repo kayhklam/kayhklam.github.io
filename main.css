@@ -100,9 +100,8 @@ body {
   position: absolute;
   padding: 180px 0 0 0;
   left: 50%;
-  margin-top: 0;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
   max-width: auto;
   z-index: 10!important;
 }
@@ -166,13 +165,6 @@ body {
   text-align: center;
   padding: 30px;
   max-width: 600px;
-}
-
-.instaimg img {margin: 0;}
-.instaimg img:hover {
-	opacity:0.8;
-	-moz-opacity:0.8;
-	-webkit-opacity:0.8;
 }
 
 
