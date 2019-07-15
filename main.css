@@ -168,6 +168,7 @@ body {
   max-width: 600px;
 }
 
+.instaimg img {margin: 0;}
 .instaimg img:hover {
 	opacity:0.8;
 	-moz-opacity:0.8;
