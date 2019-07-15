@@ -54,7 +54,7 @@ body {
   font-size: 16pt;
   font-family: microsoft tai le;
   letter-spacing: 6px;
-  padding: 15px 0 0 0;
+  padding: 10px 0 0 0;
   text-transform: uppercase;
 }
 
@@ -71,7 +71,7 @@ body {
 .dropdown-content a {
   color: black;
   display: block;
-  padding: 40px 5px 0 0;
+  padding: 45px 5px 0 0;
   text-decoration: none;
 }
 
