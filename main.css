@@ -273,6 +273,7 @@ footer {
 .homecontent .digital img{
   position: fixed;
   max-width: 100%;
+  height:auto;
   margin-left: auto;
   margin-right: auto;
 }
