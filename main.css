@@ -84,49 +84,17 @@ body {
 /* HOME */
 
 
-.cb-slideshow li span { 
-  width: 100%;
+.homecontent .digital img{
   height: auto;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  color: transparent;
-  background-position: 50% 50%;
-  background-repeat: none;
-  opacity: 0;
-  z-index: 0;
-  animation: imageAnimation 20s linear infinite 0s; 
-  list-style: none;
+  width: 100%;
+  position: flex;
+  top: 90px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
 }
-
-.cb-slideshow li:nth-child(1) span { 
-  background-image: url(image/Daenerys\ Targaryen.jpeg) 
-}
-.cb-slideshow li:nth-child(2) span { 
-  background-image: url(image/Installation\ Fusion.jpg);
-  animation-delay: 6s; 
-}
-.cb-slideshow li:nth-child(3) span { 
-  background-image: url(image/5\ nights\ \(1\).jpg);
-  animation-delay: 12s; 
-}
-
-@keyframes imageAnimation { 
-  0% { opacity: 0; animation-timing-function: ease-in; }
-  8% { opacity: 1; animation-timing-function: ease-out; }
-  17% { opacity: 1 }
-  25% { opacity: 0 }
-  100% { opacity: 0 }
-}
-
-@keyframes titleAnimation { 
-  0% { opacity: 0 }
-  8% { opacity: 1 }
-  17% { opacity: 1 }
-  19% { opacity: 0 }
-  100% { opacity: 0 }
-}
-
 
 .homecontent .homelogo img{
   position: absolute;
@@ -134,7 +102,7 @@ body {
   background-position: 50% 50%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  max-width: auto;
   z-index: 10!important;
 }
 
