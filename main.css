@@ -84,9 +84,9 @@ body {
 /* HOME */
 
 .homecontent {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  position: relative;
+  text-align: center;
+
 }
 .homecontent .digital img{
   height: auto;
@@ -102,9 +102,10 @@ body {
 
 .homecontent .homelogo img{
   position: absolute;
-  background-position: center;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  height: auto;
   z-index: 10!important;
 }
 
@@ -270,6 +271,10 @@ footer {
 }
 
 /* IMAGE -RESPONSIVE RULES */
+
+@media screen and (max-width: 1265px){
+  .homecontent
+}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 750px) {
