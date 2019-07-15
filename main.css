@@ -101,14 +101,14 @@ body {
 }
 
 .cb-slideshow li:nth-child(1) span { 
-  background-image: url(images/Daenerys\ Targaryen.jpeg) 
+  background-image: url(image/Daenerys\ Targaryen.jpeg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-  background-image: url(images/Installation\ Fusion.jpg);
+  background-image: url(image/Installation\ Fusion.jpg);
   animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-  background-image: url(images/5\ nights\ \(1\).jpg);
+  background-image: url(image/5\ nights\ \(1\).jpg);
   animation-delay: 12s; 
 }
 
