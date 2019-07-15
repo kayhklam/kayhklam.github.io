@@ -97,6 +97,14 @@ body {
 
 
 /* NAVIGATION - RESPONSIVE RULES */
+@media screen and (max-width: 1250px) {
+  .homecontent .digital img{
+    position: relative;
+    background-position: 0 50% 0 50%;
+    width: auto;
+
+  }
+}
 
 @media screen and (max-width: 750px) {
   .topnav a, .dropdown .dropbtn {
@@ -119,9 +127,6 @@ body {
 }
 
 @media screen and (max-width: 750px) {
-  .topnav {
-
-  }
   .topnav.responsive {
     position: relative;
 
