@@ -90,6 +90,7 @@ body {
   position: fixed;
   top: 90px;
   left: 0;
+  margin: 0;
   padding: 0;
   border: none;
   box-shadow: none;
@@ -248,6 +249,11 @@ footer {
   
 }
 
+.homefooter {
+  z-index: 10!important;
+  color: white;
+  text-align: center;
+}
 
 @-webkit-keyframes fade {
   from {opacity: .7} 
