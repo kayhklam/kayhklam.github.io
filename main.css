@@ -87,7 +87,8 @@ body {
 .homecontent .digital img{
   height: auto;
   width: 100%;
-  position: flex;
+  position: absolute;
+  background-position: 50% 50%;
   top: 90px;
   left: 0;
   margin: 0;
