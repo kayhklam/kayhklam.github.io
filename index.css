@@ -84,13 +84,11 @@ body {
 .homecontent {
   background-color: aqua;
   position: relative;
-  top: 40px;
-  left: 0;
   height: 90%;
   width: 100%;
 }
 
-.homecontent .digital img{
+.homecontent .digital{
   height: auto;
   width: 100%;
   position: absolute;
@@ -100,7 +98,7 @@ body {
   box-shadow: none;
 }
 
-.homecontent .homelogo img{
+.homecontent .homelogo{
   position: absolute;
   margin-left: auto;
   margin-right: auto;
