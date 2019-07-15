@@ -85,13 +85,15 @@ body {
 
 
 .homecontent .digital img{
-  height: auto;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  height: 100%;
   width: 100%;
-  position: flex;
+  position: absolute;
   top: 90px;
   left: 0;
   margin: 0;
-  padding: 0;
   border: none;
   box-shadow: none;
 }
