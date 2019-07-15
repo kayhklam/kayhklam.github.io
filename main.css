@@ -99,7 +99,7 @@ body {
 .homecontent .homelogo img{
   position: absolute;
   padding: 180px 0 0 0;
-  left: 50%;
+  left: 40%;
   max-width: auto;
   z-index: 10!important;
 }
