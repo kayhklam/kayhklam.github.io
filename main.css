@@ -228,11 +228,6 @@ footer {
   
 }
 
-.homefooter {
-  z-index: 10!important;
-  color: black;
-  text-align: center;
-}
 
 @-webkit-keyframes fade {
   from {opacity: .7} 

@@ -91,6 +91,13 @@ body {
   z-index: 10!important;
 }
 
+.homefooter {
+  z-index: 10!important;
+  color: black;
+  text-align: center;
+}
+
+
 /* NAVIGATION - RESPONSIVE RULES */
 
 @media screen and (max-width: 750px) {
