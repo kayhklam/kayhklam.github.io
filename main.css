@@ -275,9 +275,10 @@ footer {
 }
 
 
-@media screem amd (orientation: landscape){
+@media screem and (orientation: landscape){
   .homecontent .digital img { max-height: 90%;}
 }
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 750px) {
   .prev, .next,.text {font-size: 12px}
