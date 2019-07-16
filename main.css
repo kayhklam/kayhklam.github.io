@@ -244,7 +244,10 @@ footer {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 750px) {
-  .prev, .next, {font-size: 20pt}
+  .prev, .next, {
+    position: absolute;
+    top: 30%;
+    font-size: 20pt}
   .text {font-size: 12px}
 }
 
