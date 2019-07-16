@@ -241,13 +241,11 @@ footer {
 
 /* IMAGE -RESPONSIVE RULES */
 
-@media screen and (max-width: 1265px){
-  .homecontent
-}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 750px) {
-  .prev, .next,.text {font-size: 12px}
+  .prev, .next, {font-size: 20pt}
+  .text {font-size: 12px}
 }
 
 
