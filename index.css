@@ -99,7 +99,7 @@ body {
 /* NAVIGATION - RESPONSIVE RULES */
 @media screen and (max-width: 1250px) {
   .homecontent .digital img{
-    position: fixed;
+    display: fixed;
     
   }
 }
