@@ -295,6 +295,9 @@ footer {
 
   .topnav.responsive .dropdown {display: inline;}
   .topnav.responsive .dropdown-content {position:relative;}
+  .topnav.responsive .dropdown-content a{
+    padding: 10px 0 0 0;
+  }
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 150px;
