@@ -243,7 +243,7 @@ footer {
 
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 750px) {
   .prev, .next, {
     position: absolute;
     font-size: 15pt}
@@ -257,7 +257,7 @@ footer {
 
 /* NAVIGATION - RESPONSIVE RULES */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 750px) {
   .topnav a, .dropdown .dropbtn {
     display: none;
   }
@@ -270,14 +270,14 @@ footer {
   }
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 750px){
   .body{
     overflow: auto !important;
   }
   
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 750px) {
   .topnav.responsive {
     position: relative;
 
