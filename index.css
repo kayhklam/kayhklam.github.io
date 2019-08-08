@@ -104,7 +104,7 @@ body {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 783px) {
   .topnav a, .dropdown .dropbtn {
     display: none;
   }
@@ -117,14 +117,14 @@ body {
   }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 783px){
   .body{
     overflow: auto !important;
   }
   
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 783px) {
   .topnav.responsive {
     position: relative;
 
