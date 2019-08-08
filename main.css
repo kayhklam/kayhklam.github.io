@@ -130,7 +130,7 @@ body {
   
 }
 
-a.prev:hover a.prev:hover {
+a.prev:hover a.next:hover {
   background: rgba(120, 120, 120, 0.4);
 }
 
