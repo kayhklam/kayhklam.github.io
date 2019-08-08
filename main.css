@@ -86,7 +86,6 @@ body {
 
 .digital-container {
   position: relative;
-  text-align: center;
   
 }
 
@@ -103,26 +102,31 @@ body {
 /* Next & prev buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
-  top: 80px;
-  width: auto;
-  margin-top: -22px;
   padding: 16px;
   color: gray;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
+  z-index: 1;
+  position: relative;
+  top: -370px;
+  border-radius: 100%;
+  display: inline-flex;
+  width: 8px;
+  height: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .next {
-  right: 5%;
+  right: 90%;
 
 }
 
 .prev {
-  left: 5%;
+  left: 1%;
   
 }
 
@@ -130,7 +134,6 @@ body {
 .content {
   background-color: white;
   margin: auto;
-  text-align:center;
   padding: 30px 40px;
   max-width: 1200px;
 }
