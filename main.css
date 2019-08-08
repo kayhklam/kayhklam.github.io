@@ -121,15 +121,18 @@ body {
 }
 
 .next {
-  left: 90%;
+  left: 91%;
 
 }
 
 .prev {
-  left: 1%;
+  left: 2%;
   
 }
 
+a.prev:hover, a.prev:hover {
+  background: rgba(120, 120, 120, 0.4);
+}
 
 .content {
   background-color: white;
