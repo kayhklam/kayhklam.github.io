@@ -123,7 +123,7 @@ body {
 }
 
 .next {
-  left: 92%;
+  left: 94%;
 
 }
 
@@ -132,7 +132,7 @@ body {
   
 }
 
-a.prev:hover a.next:hover {
+.prev:hover .next:hover {
   background: rgba(120, 120, 120, 0.4);
 }
 
