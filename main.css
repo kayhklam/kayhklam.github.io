@@ -69,12 +69,12 @@ body {
 .dropdown-content a {
   color: black;
   display: block;
-  padding: 30px 5px 0 5px;
+  padding: 35px 5px 0 20px;
   text-decoration: none;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd 0.2;
+  background-color: #ddd 0.4;
 }
 .dropdown:hover .dropdown-content {
   display: block;
