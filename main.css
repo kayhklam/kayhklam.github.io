@@ -135,16 +135,17 @@ body {
 
 .next {
   left: 94%;
+  border-radius: 100%;
 
 }
 
 .prev {
   left: 2%;
-  
+  border-radius: 100%;
 }
 
-.prev:hover .next:hover {
-  background: rgba(120, 120, 120, 0.4);
+.prev:hover, .next:hover {
+  background-color: rgba(120,120,120,0.3);
 }
 
 .content {
