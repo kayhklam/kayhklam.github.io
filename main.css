@@ -258,10 +258,11 @@ footer {
   to {opacity: 1}
 }
 
-/* IMAGE -RESPONSIVE RULES */
 
+@media screen and (max-width: 1022px) {
+  .nameLogo {display:none}
+}
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 783px) {
   .prev, .next, {
     position: absolute;
@@ -275,9 +276,8 @@ footer {
 
 
 /* NAVIGATION - RESPONSIVE RULES */
-@media screen and (max-width: 1022px) {
-  .nameLogo {display:none}
-}
+
+
 
 @media screen and (max-width: 783px) {
   .topnav a, .dropdown .dropbtn {
