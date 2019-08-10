@@ -12,6 +12,12 @@ body {
   text-align: center;
 }
 
+.nameLogo {
+  display: inline;
+  font-size: 25pt;
+  font-weight:bolder;
+}
+
 .topnav {
   background-color: #deeaee;
   border: none;
