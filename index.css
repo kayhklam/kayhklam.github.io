@@ -112,6 +112,10 @@ body {
   }
 }
 
+@media screen and (max-width: 1022px) {
+  .nameLogo {display:none}
+}
+
 @media screen and (max-width: 783px) {
   .topnav a, .dropdown .dropbtn {
     display: none;
