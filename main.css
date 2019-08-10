@@ -184,6 +184,13 @@ body {
 
 
 /* Caption text */
+
+.headtext {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20pt;
+}
+
 .text {
   bottom: 5px;
   color: #f2f2f2;
@@ -196,12 +203,6 @@ body {
   left: 20%;
 }
 
-.headtext {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 20pt;
-  margin: 10px 10px 10px 60px;
-}
 
 .sidetext {
   max-width: 950px;
