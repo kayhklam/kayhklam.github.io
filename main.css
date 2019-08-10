@@ -70,12 +70,14 @@ body {
   color: black;
   display: block;
   padding: 10px;
+  margin: 30px 0 0 20px;
   text-decoration: none;
 }
 
-.dropdown-content:hover {
-  background-color: hsla(0, 100%, 90%, 0.4);
+.dropdown-content a:hover {
+  background-color: rgb(240, 240, 240, 0.5);
 }
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
