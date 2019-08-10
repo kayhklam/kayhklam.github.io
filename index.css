@@ -113,7 +113,8 @@ body {
     float: right;
     display: block;
     font-size: 28pt;
-   
+    padding: 0 5px 0 0;
+    margin: 0
   }
 }
 
@@ -127,15 +128,14 @@ body {
 @media screen and (max-width: 783px) {
   .topnav.responsive {
     position: relative;
-
+    padding: 35px 0 10px 0;
   }
 
   .topnav.responsive .icon {
     position: absolute;
-    right: 50px;
-    top: 30px;
-    padding-top: 20px;
-    padding-right: 20px;
+    right: 10px;
+    top: 20px;
+    padding: 5px 20px 0 0;
     
   }
   .topnav.responsive a {
@@ -146,14 +146,18 @@ body {
     
   }
 
-  .topnav.responsive .dropdown {display: inline;}
+  .topnav.responsive .dropdown {
+    display: inline;
+    padding: 10px 0 10px 0;
+    }
   .topnav.responsive .dropdown-content {position:relative;}
   .topnav.responsive .dropdown-content a{
-    padding: 10px 0 0 0;
+    padding: 10px 0 0 30px;
+    margin: 0 0 5px 0;
   }
   .topnav.responsive .dropdown .dropbtn {
     display: block;
-    width: 150px;
     text-align: left;
+    padding: 0 0 0 30px;
   }
 }
