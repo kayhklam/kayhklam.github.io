@@ -9,7 +9,7 @@ body {
 
 .mainheader {
   padding: 0;
-  text-align: center;
+  text-align: right;
   z-index: 9999!important;
 }
 
@@ -260,28 +260,9 @@ footer {
   to {opacity: 1}
 }
 
-
-@media screen and (max-width: 1022px) {
-  .nameLogo {display:none}
-}
-
-@media only screen and (max-width: 783px) {
-  .prev, .next, {
-    position: absolute;
-    font-size: 15pt}
-
-  .prev {left: 1%;}
-  .next {right: 1%}
-
-  .text {font-size: 12px}
-}
-
-
 /* NAVIGATION - RESPONSIVE RULES */
 
-
-
-@media screen and (max-width: 783px) {
+@media screen and (max-width: 1002px) {
   .topnav a, .dropdown .dropbtn {
     display: none;
   }
@@ -295,17 +276,35 @@ footer {
   }
 }
 
-@media screen and (max-width: 783px){
+@media only screen and (max-width: 1002px) {
+  .prev, .next {
+    position: absolute;
+    font-size: 15pt}
+
+  .prev {left: 1%;}
+  .next {right: 1%}
+
+  .text {font-size: 12px}
+}
+
+
+
+@media screen and (max-width: 1002px){
   .body{
     overflow: auto !important;
   }
   
 }
 
-@media screen and (max-width: 783px) {
+@media screen and (max-width: 1002px) {
+.topnav.responsive .namelogo {
+  display: contents;
+  float: left;
+}
+
   .topnav.responsive {
     position: relative;
-    padding: 35px 0 10px 0;
+    padding: 20px 0 20px 10px;
   }
 
   .topnav.responsive .icon {

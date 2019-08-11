@@ -9,7 +9,7 @@ body {
 
 .mainheader {
   padding: 0;
-  text-align: center;
+  text-align: right;
   z-index: 9999!important;
 }
 
@@ -112,11 +112,8 @@ body {
   }
 }
 
-@media screen and (max-width: 1022px) {
-  .nameLogo {display:none}
-}
 
-@media screen and (max-width: 783px) {
+@media screen and (max-width: 1002px) {
   .topnav a, .dropdown .dropbtn {
     display: none;
   }
@@ -130,7 +127,7 @@ body {
   }
 }
 
-@media screen and (max-width: 783px){
+@media screen and (max-width: 1002px){
   .body{
     overflow: auto !important;
   }
@@ -138,9 +135,14 @@ body {
 }
 
 @media screen and (max-width: 783px) {
+  .topnav.responsive .nameLogo {
+  display: contents;
+  float: left; 
+  } 
+
   .topnav.responsive {
     position: relative;
-    padding: 35px 0 10px 0;
+    padding: 20px 0 20px 10px;
   }
 
   .topnav.responsive .icon {
