@@ -262,17 +262,17 @@ footer {
 
 /* NAVIGATION - RESPONSIVE RULES */
 
-
-@media only screen and (max-width: 1002px) {
-  .prev, .next {
-    position: absolute;
-    font-size: 15pt}
-
-  .prev {left: 1%;}
-  .next {right: 1%}
-
-  .text {font-size: 12px}
+@media screen and (max-width: 1230px){
+  .prev {
+    top: 45%;
+    left: 6%;
+  } 
+  .next {
+    top: 45%;
+    right: 91%;
+  }
 }
+
 
 
 
@@ -327,14 +327,57 @@ footer {
     display: inline;
     padding: 10px 0 10px 0;
     }
-  .topnav.responsive .dropdown-content {position:relative;}
+  .topnav.responsive .dropdown-content {
+    position:relative;
+
+    }
   .topnav.responsive .dropdown-content a{
     padding: 10px 0 0 30px;
     margin: 0 0 5px 0;
+   
   }
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     text-align: left;
     padding: 10px 0 0 30px;
+  }
+}
+
+
+
+@media screen and (max-width: 1002px) {
+  .prev, .next {
+    position: absolute;
+   display: inline-flex;
+   font-size: 25px;
+   padding: 10px;
+   width: 8px;
+   height: 8px;
+   border-radius: 100%
+   user-select: none;
+   z-index: 1;
+  }
+  .prev {
+    top: 42%;
+    left: 6%;
+  }
+  .next {
+    top: 42%;
+    right: 90%;
+  }
+  .prev:hover, next:hover {
+    background-color: rgba(120,120,120,0.5); 
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .prev {
+    top: 40%;
+    left: 3%;
+  }
+
+  .next {
+    top:40%;
+    right: 5%;
   }
 }
