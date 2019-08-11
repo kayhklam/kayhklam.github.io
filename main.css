@@ -282,7 +282,7 @@ footer {
    .next {left: 93%;}
 
    .prev:hover, .next:hover {
-     background-color: rgba(240,240,240,0.2); 
+    background-color: rgba(120,120,120,0.3);
    }
  }
  
