@@ -262,7 +262,7 @@ footer {
 
 /* NAVIGATION - RESPONSIVE RULES */
 
-@media screen and (max-width: 1022px){
+@media screen and (max-width: 1024px){
   .prev, .next {
     position: absolute;
     display: inline-flex;
@@ -270,44 +270,35 @@ footer {
     padding: 12px;
     width: 8px;
     height: 8px;
-    top: 300px;
+    top: 280px;
     border-radius: 100%
     user-select: none;
     z-index: 1;
     text-align: center;
     align-items: center;
-    justify-content: center
+    justify-content: center;
    }
-   .prev {
-     left: 6%;
-   } 
-   .next {
-     left: 90%;
-   }
-    .prev:hover, .next:hover {
+   .prev {left: 3%;} 
+   .next {left: 93%;}
+
+   .prev:hover, .next:hover {
      background-color: rgba(240,240,240,0.2); 
    }
  }
  
  @media screen and (max-width: 1022px) {
-   .topnav a, .dropdown .dropbtn {
-     display: none;
-   }
-   
+   .topnav a, .dropdown .dropbtn {display: none;}
    .topnav a.icon {
      float: right;
      display: block;
      font-size: 28pt;
      padding: 0 5px 0 0;
-     margin: 0
+     margin: 0;
    }
  }
  
  @media screen and (max-width: 1002px){
-   .body{
-     overflow: auto !important;
-   }
-   
+   .body{overflow: auto !important;}
  }
  
  @media screen and (max-width: 1002px) {
@@ -315,39 +306,31 @@ footer {
    display: contents;
    float: left; 
    } 
- 
    .topnav.responsive {
      position: relative;
      padding: 20px 0 20px 10px;
    }
- 
    .topnav.responsive .icon {
      position: absolute;
      right: 10px;
      top: 20px;
      padding: 5px 20px 0 0;
-     
    }
    .topnav.responsive a {
-     
      float: none;
      display: block;
      text-align: left;
-     
    }
- 
    .topnav.responsive .dropdown {
      display: inline;
      padding: 10px 0 10px 0;
-     }
+   }
    .topnav.responsive .dropdown-content {
      position:relative;
- 
-     }
+   }
    .topnav.responsive .dropdown-content a{
      padding: 10px 0 0 30px;
      margin: 0 0 5px 0;
-    
    }
    .topnav.responsive .dropdown .dropbtn {
      display: block;
@@ -357,50 +340,44 @@ footer {
  }
  
  
- @media screen and (max-width: 941px) {
-   .prev, .next {
-    position: absolute;
-    display: inline-flex;
-    font-size: 20px;
-    padding: 12px;
-    width: 8px;
-    height: 8px;
-    top: 290px;
-    border-radius: 100%
-    user-select: none;
-    z-index: 1;
-    text-align: center;
-    align-items: center;
-    justify-content: center
-   }
-  
-   .prev {
-     left: 6%;
-   }
-   .next {
-     left: 90%;
-   }
-  
+ @media screen and (max-width: 930px) {
+   .prev, .next {top: 270px;}
+   .prev {left: 2%;}
+   .next {left: 95%;}
  }
- @media screen and (max-width: 765px) {
-   .prev, .next {
-    top: 230px;
-   }
+  @media screen and (max-width: 830px) {
+   .prev, .next {top: 230px;}
+   .prev {left: 2%;}
+   .next {left: 94%;}
+ }
+ @media screen and (max-width: 768px) {
+   .prev, .next {top: 200px;}
+   .prev {left: 1%;}
+   .next {left: 95%;}
+ }
  
  @media screen and (max-width: 650px) {
-   .prev, .next {
-    top: 180px;
-   }
+   .prev, .next {top: 180px;}
+   .prev {left: 1%;}
+   .next {left: 93%;}
+ }
+ @media screen and (max-width: 550px) {
+   .prev, .next {top: 150px;}
+   .prev {left: 1%;}
+   .next {left: 93%;}
+ }
  @media screen and (max-width: 414px) {
-   .prev, .next {
-    top: 120px;
-   }
+   .prev, .next {top: 100px;}
+   .prev {left: 1%;}
+   .next {left: 90%;}
+ }
  @media screen and (max-width: 375px) {
-   .prev, .next {
-    top: 110px;
-   }
+   .prev, .next {top: 90px;}
+   .prev {left: 1%;}
+   .next {left: 90%;}
+ }
  @media screen and (max-width: 320px) {
-   .prev, .next {
-    top: 90px;
-   }
-  
+   .prev, .next {top: 75px}
+   .prev {left: 0%;}
+   .next {left: 90%;}
+ }
