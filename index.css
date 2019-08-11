@@ -105,12 +105,6 @@ body {
 
 
 /* NAVIGATION - RESPONSIVE RULES */
-@media screen and (max-width: 1230px) {
-  .homecontent .digital img{
-    display: fixed;
-    
-  }
-}
 
 
 @media screen and (max-width: 1002px) {
