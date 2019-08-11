@@ -134,14 +134,14 @@ body {
 }
 
 .next {
-  left: 94%;
-  border-radius: 100%;
+  left: 90%;
+ 
 
 }
 
 .prev {
-  left: 2%;
-  border-radius: 100%;
+  left: 6%;
+ 
 }
 
 .prev:hover, .next:hover {
@@ -269,12 +269,9 @@ footer {
   } 
   .next {
     top: 45%;
-    right: 91%;
+    left: 91%;
   }
 }
-
-
-
 
 @media screen and (max-width: 1002px) {
   .topnav a, .dropdown .dropbtn {
@@ -344,7 +341,6 @@ footer {
 }
 
 
-
 @media screen and (max-width: 1002px) {
   .prev, .next {
     position: absolute;
@@ -363,7 +359,7 @@ footer {
   }
   .next {
     top: 42%;
-    right: 90%;
+    left: 90%;
   }
   .prev:hover, next:hover {
     background-color: rgba(120,120,120,0.5); 
@@ -378,6 +374,6 @@ footer {
 
   .next {
     top:40%;
-    right: 5%;
+    left: 90%;
   }
 }
