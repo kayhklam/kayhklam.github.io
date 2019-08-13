@@ -272,11 +272,6 @@ footer {
     height: 8px;
     top: 280px;
     border-radius: 100%
-    user-select: none;
-    z-index: 1;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
    }
    .prev {left: 3%;} 
    .next {left: 93%;}
