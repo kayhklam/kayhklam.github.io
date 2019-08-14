@@ -356,6 +356,13 @@ footer {
    .prev {left: 1%;}
    .next {left: 93%;}
  }
+
+ @media screen and (max-width: 600px) {
+   .footer {
+     display: none;
+   }
+ }
+ 
  @media screen and (max-width: 550px) {
    .prev, .next {top: 150px;}
    .prev {left: 1%;}
