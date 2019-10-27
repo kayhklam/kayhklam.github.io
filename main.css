@@ -280,7 +280,7 @@ footer {
  }
  
  @media screen and (max-width: 700px) {
-   .mobiletopnav a, .dropdown .dropbtn {display: none;}
+   .topnav a, .dropdown .dropbtn {display: none;}
    .topnav a.icon {
      float: right;
      display: block;
@@ -295,37 +295,37 @@ footer {
  }
  
  @media screen and (max-width: 700px) {
-   .mobiletopnav.responsive .nameLogo {
+   .topnav.responsive .nameLogo {
    display: contents;
    float: left; 
    } 
-   .mobiletopnav.responsive {
+   .topnav.responsive {
      position: relative;
      padding: 20px 0 20px 10px;
    }
-   .mobiletopnav.responsive .icon {
+   .topnav.responsive .icon {
      position: absolute;
      right: 10px;
      top: 20px;
      padding: 5px 20px 0 0;
    }
-   .mobiletopnav.responsive a {
+   .topnav.responsive a {
      float: none;
      display: block;
      text-align: left;
    }
-   .mobiletopnav.responsive .dropdown {
+   .topnav.responsive .dropdown {
      display: inline;
      padding: 10px 0 10px 0;
    }
-   .mobiletopnav.responsive .dropdown-content {
+   .topnav.responsive .dropdown-content {
      position:relative;
    }
-   .mobiletopnav.responsive .dropdown-content a{
+   .topnav.responsive .dropdown-content a{
      padding: 10px 0 0 30px;
      margin: 0 0 5px 0;
    }
-   .mobiletopnav.responsive .dropdown .dropbtn {
+   .topnav.responsive .dropdown .dropbtn {
      display: block;
      text-align: left;
      padding: 10px 0 0 30px;
