@@ -234,13 +234,14 @@ body {
   animation-duration: .2s;
 }
 
-
+p {
+  text-align: center;
+}
 /* FOOTER */
 footer {
   clear: both;
   text-align: center;
-  bottom: 0%;
-  
+  font-weight: bold;
 }
 
 
