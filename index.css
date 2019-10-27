@@ -1,6 +1,6 @@
 /* HOME */
 body {
-  background-color: #f0f0f0;
+  background-color:white;
   font-family: Microsoft Tai Le;
   margin: 0;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .topnav {
-  background-color: #deeaee;
+  background-color: white;
   border: none;
   width: auto;
   font-size: 16pt;
