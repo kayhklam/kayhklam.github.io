@@ -260,7 +260,7 @@ footer {
 
 /* NAVIGATION - RESPONSIVE RULES */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 900px){
   .prev, .next {
     position: absolute;
     display: inline-flex;
@@ -279,7 +279,7 @@ footer {
    }
  }
  
- @media screen and (max-width: 1022px) {
+ @media screen and (max-width: 700px) {
    .topnav a, .dropdown .dropbtn {display: none;}
    .topnav a.icon {
      float: right;
@@ -290,11 +290,11 @@ footer {
    }
  }
  
- @media screen and (max-width: 1002px){
+ @media screen and (max-width: 700px){
    .body{overflow: auto !important;}
  }
  
- @media screen and (max-width: 1002px) {
+ @media screen and (max-width: 700px) {
    .topnav.responsive .nameLogo {
    display: contents;
    float: left; 
