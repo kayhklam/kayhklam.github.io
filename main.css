@@ -178,6 +178,9 @@ body {
   margin-right: auto;
   padding: 10px;
 }
+.abouttext {
+ font-weight: bold;
+}
 
 
 /* Caption text */
