@@ -43,25 +43,25 @@
 
     <div class="digital-container">
 
-        <div class="mySlides fade">
+      <div class="mySlides fade">
 
-            <div class="digital">
-              <img src="image/oct21.jpg" alt="Commissioned artwork 2019">
-            </div>
+        <div class="digital">
+          <img src="image/oct21.jpg" alt="Commissioned artwork 2019">
+        </div>
 
-            <div class="sidetext">
-              <i>October 21st</i>, 2019
-            </div>
+        <div class="sidetext">
+          <i>October 21st</i>, 2019
+        </div>
 
-            <div class="digital">
-              <img src="image/oct21.gif" alt="Commissioned artwork 2019">
-            </div>
+        <div class="digital">
+          <img src="image/oct21.gif" alt="Commissioned artwork 2019">
+        </div>
 
-            <div class="sidetext">
-              Progress shot study
-            </div>
-            
-          </div>
+        <div class="sidetext">
+          Progress shot study
+        </div>
+
+      </div>
 
       <div class="mySlides fade">
 
@@ -87,17 +87,6 @@
 
       <div class="mySlides fade">
 
-          <div class="digital">
-            <img src="image/Mirror self portrait.jpg" alt="Sketch">
-          </div>
-  
-          <div class="sidetext">
-          Study 2017
-          </div>
-        </div>
-        
-      <div class="mySlides fade">
-
         <div class="digital">
           <img src="image/Maria.jpg" alt="Portrait painting" />
         </div>
@@ -106,7 +95,6 @@
           <i>Maria</i>, Portrait painting study 2017
         </div>
       </div>
-
 
       <div class="mySlides fade">
 
@@ -130,79 +118,66 @@
         </div>
       </div>
 
-      <div class="mySlides fade">
-
-          <div class="digital">
-            <img src="image/Blossom bird wip.jpg" alt="Blossom Bird" />
-          </div>
-  
-          <div class="sidetext">
-            Blossom Bird sketch study 2017
-          </div>
-        </div>
-
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    
 
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-      <span class="dot" onclick="currentSlide(5)"></span>
-      <span class="dot" onclick="currentSlide(6)"></span>
-      <span class="dot" onclick="currentSlide(7)"></span>
-      <span class="dot" onclick="currentSlide(8)"></span>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
     </div>
-  </div>
-  <p>For high resolution quality prints, originals and commissions - please get in touch!</p>
-  </div>
 
+    <div>
+      <p>For high resolution quality prints, originals and commissions - please get in touch!</p>
+    </div>
 
-  <footer>Copyright &#169 2019 Website by Kay Lam</footer>
+    <footer>Copyright &#169 2019 Website by Kay Lam</footer>
 
-  <!-- TOP NAVIGATION SCRIPT -->
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
+    <!-- TOP NAVIGATION SCRIPT -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
       }
-    }
-  </script>
+    </script>
 
-  <!-- SLIDE SHOW SCRIPT -->
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
+    <!-- SLIDE SHOW SCRIPT -->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = slides.length }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
       }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
       }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-    }
-  </script>
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
 
 </body>
 
