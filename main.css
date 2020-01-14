@@ -100,8 +100,6 @@ body {
 }
 
 .digital img{
-  border: 1px solid white;
-  box-shadow: gray 0 0 10px;
   display: block;
   height: auto;
   max-width: 100%;
