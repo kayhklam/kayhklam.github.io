@@ -24,13 +24,9 @@ body {
   border: none;
   width: auto;
   font-size: 16pt;
-  padding: 15px;
-  margin: 0;
-  display: block;
-  position: fixed;
-  width: 100%;
-  overflow: hidden;
-  top: 0;
+  padding: 25px ;
+  margin-top: 0;
+  font-weight: bold;
 }
 
 .topnav a {
@@ -39,10 +35,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 6px;
   padding: 10px 30px 0 30px;
+  font-weight: bold;
   
 }
 .topnav a:hover, .dropdown .dropbtn:hover{
   color: lightcoral;
+  font-weight: bold;
  }
 
 .topnav .icon {
