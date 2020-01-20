@@ -146,30 +146,21 @@ body {
 
 .content {
   background-color: white;
-  padding: 10px;
   display: block;
   margin: 80px auto;
+  padding: 10px;
 }
-
-.contactcontent {
-  background-color: white;
-  margin: auto;
-  text-align: center;
-  padding: 30px;
-  max-width: 600px;
-}
-
-
 
 /* ABOUT */
 
 .aboutcontent {
   background-color: white;
   display: block;
+  position: relative;
   margin:  80px auto;
+  max-width: 600px;
   text-align: center;
   padding: 30px;
-  max-width: 600px;
 }
 
 .aboutname img .profile img{
