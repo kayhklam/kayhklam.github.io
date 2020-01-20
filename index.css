@@ -96,10 +96,10 @@ body {
 
 
 .homefooter {
+  clear: both;
   text-align: center;
   font-weight: bold;
 }
-
 
 /* NAVIGATION - RESPONSIVE RULES */
 
