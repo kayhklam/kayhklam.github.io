@@ -37,7 +37,6 @@
 
   <div class="aboutcontent">
 
-
     <div class="profile">
       <img src="image/me.png" style="max-width: 100%">
     </div>
@@ -52,22 +51,23 @@
     </div>
   </div>
 
-  
+  <!-- TOP NAVIGATION SCRIPT -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
   <footer>Copyright &#169 2019 Website by Kay Lam</footer>
 
 </body>
 
-<!-- TOP NAVIGATION SCRIPT -->
-<script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-</script>
+
 
 
 </html>
