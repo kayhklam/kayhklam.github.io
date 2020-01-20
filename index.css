@@ -49,6 +49,15 @@ body {
   display: none;
 }
 
+.topnav a:hover, .dropdown .dropbtn:hover{
+  color: lightcoral;
+  font-weight: bold;
+ }
+
+.topnav .icon {
+  display: none;
+}
+
 .dropdown {
   display: inline-block;
   position: relative;
@@ -64,10 +73,12 @@ body {
   letter-spacing: 6px;
   padding: 10px 30px 0 30px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .dropdown-content {
   display: none;
+  background-color: none;
   min-width: 100px;
   position: absolute;
   text-align: left;
@@ -81,9 +92,9 @@ body {
   padding: 10px;
   margin: 30px 0 0 20px;
   text-decoration: none;
+  font-weight: bold;
   background-color: rgb(240, 240, 240, 0.7);
 }
-
 
 .dropdown:hover .dropdown-content {
   display: block;
