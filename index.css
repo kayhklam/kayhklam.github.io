@@ -14,7 +14,7 @@ body {
 }
 
 #logoHome {
-  display: inline-block;
+  display: block;
   float: left;
 }
 
