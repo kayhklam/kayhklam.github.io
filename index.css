@@ -24,7 +24,7 @@ body {
   background-color: rgba(0,0,0,0.5);
 }
 
-.principal{
+.principle{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -33,12 +33,12 @@ body {
   text-align: center;
 }
 
-.principal h1{
+.principle h1{
   font-size: 70px;
   margin-bottom: 20px;
 }
 
-.principal p{
+.principle p{
   font-size: 20px;
 }
 
