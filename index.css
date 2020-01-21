@@ -36,10 +36,17 @@ body {
 .principle h1{
   font-size: 70px;
   margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .principle p{
   font-size: 20px;
+}
+
+.principle a{
+  font-size: 20px;
+  text-decoration: none;
 }
 
 @keyframes slide {
@@ -47,13 +54,13 @@ body {
     background-image: url('image/DA.jpg');
   }
   20%{
-    background-image: url('image/DA.jpeg');
+    background-image: url('image/DA.jpg');
   }
   20.01%{
-    background-image: url('image/DA.jpeg');
+    background-image: url('image/DA.jpg');
   }
   40%{
-    background-image: url('image/5\ nights\ \(1\).jpg');
+    background-image: url('image/DA.jpg');
   }
   40.01%{
     background-image: url('image/5\ nights\ \(1\).jpg');
@@ -62,7 +69,7 @@ body {
     background-image: url('image/5\ nights\ \(1\).jpg');
   }
   60.01%{
-    background-image: url('image/Avatar\ of\ Courage.jpg');
+    background-image: url('image/5\ nights\ \(1\).jpg');
   }
   80%{
     background-image: url('image/Installation\ Fusion.jpg');
