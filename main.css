@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
 body {
   background-color:white;
   font-family: Microsoft Tai Le;
