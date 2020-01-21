@@ -200,9 +200,9 @@ body {
 
 
 .sidetext {
-  max-width: 950px;
-  text-align: center;
-  padding: 20px 0px 20px 0px;
+  max-width: 600px;
+  text-align: left;
+  padding: 20px 0px;
   margin: auto;
   display: block;
 }
