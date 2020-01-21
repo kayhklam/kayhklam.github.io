@@ -13,11 +13,11 @@ body {
   z-index: 9999!important;
 }
 
-.namelogo {
-  float: left;
+.nameLogo {
   display: inline;
   font-size: 30px;
   font-weight:bolder;
+  clear: left;
 }
 
 .topnav {
