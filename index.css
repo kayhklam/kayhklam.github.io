@@ -36,8 +36,8 @@ body {
 .principle h1{
   font-size: 50px;
   margin-bottom: 20px;
-  /* text-transform: uppercase; */
-  font-weight: 500;
+  text-transform: uppercase;
+  font-weight: bolder;
   letter-spacing: 5px;
 }
 
