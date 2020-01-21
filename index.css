@@ -27,12 +27,12 @@ body {
 .topnav {
   background-color: white;
   border: none;
-  font-size: 15px;
-  padding: 10px;
+  font-size: 16pt;
+  padding: 15px;
   margin: 0;
   display: inline-block;
   position: fixed;
-  width: 100%;
+  width: 98%;
   top: 0;
   z-index: 99999;
   text-align: right;
@@ -43,7 +43,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 6px;
-  padding: 10px;
+  padding: 10px 20px;
 }
 .topnav a:hover, .dropdown .dropbtn:hover{
   color: lightcoral;
@@ -63,10 +63,10 @@ body {
   background: none;
   border: none;
   color:darkslategrey;
-  font-size: 15px;
+  font-size: 16pt;
   font-family: microsoft tai le;
   letter-spacing: 6px;
-  padding: 10px;
+  padding: 10px 30px 0 30px;
   text-transform: uppercase;
 }
 
@@ -103,9 +103,10 @@ body {
 
 .digital img{
   display: block;
-  width: 100%;
-  position: relative;
-  top: 90px;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Next & prev buttons */
@@ -267,21 +268,21 @@ footer {
  
 } 
 
-@media screen and (max-width: 730px) {
-  .topnav a, .dropdown .dropbtn {display: none;border: none;text-decoration: none;}
-  .topnav a.icon {
+@media screen and (max-width: 700px) {
+   .topnav a, .dropdown .dropbtn {display: none;}
+   .topnav a.icon {
      /* float: right; */
      position: absolute;
      display: inline-grid;
      font-size: 40px;
-     padding: 10px;
+     padding: 20px;
      /* margin: 0; */
      top: 0;
      right: 40px;
-  }
+    }
 }
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 700px){
   .body{overflow: auto !important;}
 }
  
@@ -294,14 +295,14 @@ footer {
      /* position: relative; */
      /* padding: 20px; */
      display: inline-grid;
-     width: 98;
+     width: 98%;
   }
   .topnav.responsive .icon {
      position: absolute;
      display: inline-grid;
      right: 40px;
      top: 0;
-     padding: 10px;
+     padding: 20px;
   }
   .topnav.responsive a {
      float: none;
@@ -318,13 +319,11 @@ footer {
   }
   .topnav.responsive .dropdown-content a{
      padding: 10px 0 0 30px;
-     margin: 0;
+     margin: 0 0 5px 0;
   }
   .topnav.responsive .dropdown .dropbtn {
      display: block;
      text-align: left;
-     padding: 10px;
-     border: none;
-     text-decoration: none;
+     padding: 10px 20px;
   }
 }
