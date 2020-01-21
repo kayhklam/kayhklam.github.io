@@ -34,7 +34,7 @@ body {
 }
 
 .principle h1{
-  font-size: 50px;
+  font-size: 70px;
   margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: bolder;
@@ -81,5 +81,11 @@ body {
   }
   100%{
     background-image: url('image/Installation\ Fusion.jpg');
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .principle h1 {
+    font-size: 40px;
   }
 }
