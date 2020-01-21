@@ -1,5 +1,4 @@
 body {
-  background-color:white;
   font-family: Microsoft Tai Le;
   margin: 0;
   padding: 0;
@@ -45,33 +44,33 @@ body {
 
 @keyframes slide {
   0%{
-    background-image: url('image/Daenerys Targaryen.jpeg');
+    background-image: url('image/DA.jpg');
   }
   20%{
-    background-image: url('image/Daenerys Targaryen.jpeg');
+    background-image: url('image/DA.jpeg');
   }
   20.01%{
-    background-image: url('image/5\ nights\ \(1\).jpg');
+    background-image: url('image/DA.jpeg');
   }
   40%{
     background-image: url('image/5\ nights\ \(1\).jpg');
   }
   40.01%{
-    background-image: url('image/Installation\ Fusion.jpg');
+    background-image: url('image/5\ nights\ \(1\).jpg');
   }
   60%{
-    background-image: url('image/Installation\ Fusion.jpg');
+    background-image: url('image/5\ nights\ \(1\).jpg');
   }
   60.01%{
     background-image: url('image/Avatar\ of\ Courage.jpg');
   }
   80%{
-    background-image: url('image/Avatar\ of\ Courage.jpg');
+    background-image: url('image/Installation\ Fusion.jpg');
   }
   80.01%{
-    background-image: url('image/5\ nights\ install.jpg');
+    background-image: url('image/Installation\ Fusion.jpg');
   }
   100%{
-    background-image: url('image/5\ nights\ install.jpg');
+    background-image: url('image/Installation\ Fusion.jpg');
   }
 }
