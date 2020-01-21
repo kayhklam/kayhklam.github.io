@@ -14,8 +14,9 @@ body {
 }
 
 .namelogo {
+  float: left;
   display: inline;
-  font-size: 25pt;
+  font-size: 30px;
   font-weight:bolder;
 }
 
