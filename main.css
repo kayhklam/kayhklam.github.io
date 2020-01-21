@@ -30,9 +30,9 @@ body {
   font-size: 16pt;
   padding: 15px;
   margin: 0;
-  display: block;
+  display: inline-block;
   position: fixed;
-  width: 100%;
+  width: 98%;
   top: 0;
   z-index: 99999;
   text-align: right;
@@ -43,8 +43,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 6px;
-  padding: 10px 30px;
-  
+  padding: 10px 20px;
 }
 .topnav a:hover, .dropdown .dropbtn:hover{
   color: lightcoral;
@@ -266,46 +265,53 @@ footer {
    .prev:hover, .next:hover {
     background-color: rgba(120,120,120,0.3);
    }
- }
+}
  
- @media screen and (max-width: 700px) {
+@media screen and (max-width: 730px) {
    .topnav a, .dropdown .dropbtn {display: none;}
    .topnav a.icon {
-     float: right;
-     display: block;
-     font-size: 28pt;
-     padding: 0 5px 0 0;
-     margin: 0;
+     /* float: right; */
+     position: absolute;
+     display: inline-grid;
+     font-size: 40px;
+     padding: 20px;
+     /* margin: 0; */
+     top: 0;
+     right: 40px;
    }
- }
+}
  
- @media screen and (max-width: 700px){
+@media screen and (max-width: 730px){
    .body{overflow: auto !important;}
- }
+}
  
- @media screen and (max-width: 700px) {
+@media screen and (max-width: 730px) {
    .topnav.responsive .nameLogo {
    display: contents;
    float: left; 
-   } 
+  } 
    .topnav.responsive {
-     position: relative;
-     padding: 20px 0 20px 10px;
+     /* position: relative; */
+     /* padding: 20px; */
+     display: inline-grid;
+     width: 98%;
    }
    .topnav.responsive .icon {
      position: absolute;
-     right: 10px;
-     top: 20px;
-     padding: 5px 20px 0 0;
+     display: inline-grid;
+     right: 40px;
+     top: 0;
+     padding: 20px;
    }
    .topnav.responsive a {
      float: none;
+     display: inline-grid;
      display: block;
      text-align: left;
    }
    .topnav.responsive .dropdown {
      display: inline;
-     padding: 10px 0 10px 0;
+     /* padding: 10px 0 10px 0; */
    }
    .topnav.responsive .dropdown-content {
      position:relative;
@@ -317,56 +323,56 @@ footer {
    .topnav.responsive .dropdown .dropbtn {
      display: block;
      text-align: left;
-     padding: 10px 0 0 30px;
-   }
- }
+     padding: 10px 20px;
+  }
+}
  
  
- @media screen and (max-width: 930px) {
+@media screen and (max-width: 930px) {
    .prev, .next {top: 270px;}
    .prev {left: 2%;}
    .next {left: 95%;}
- }
-  @media screen and (max-width: 830px) {
+}
+@media screen and (max-width: 830px) {
    .prev, .next {top: 230px;}
    .prev {left: 2%;}
    .next {left: 94%;}
- }
- @media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
    .prev, .next {top: 200px;}
    .prev {left: 1%;}
    .next {left: 95%;}
- }
+}
  
- @media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
    .prev, .next {top: 180px;}
    .prev {left: 1%;}
    .next {left: 93%;}
- }
+}
 
- @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
    .footer {
      display: none;
    }
  }
  
- @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
    .prev, .next {top: 150px;}
    .prev {left: 1%;}
    .next {left: 93%;}
- }
- @media screen and (max-width: 414px) {
+}
+@media screen and (max-width: 414px) {
    .prev, .next {top: 100px;}
    .prev {left: 1%;}
    .next {left: 90%;}
- }
- @media screen and (max-width: 375px) {
+}
+@media screen and (max-width: 375px) {
    .prev, .next {top: 90px;}
    .prev {left: 1%;}
    .next {left: 90%;}
- }
- @media screen and (max-width: 320px) {
+}
+@media screen and (max-width: 320px) {
    .prev, .next {top: 75px}
    .prev {left: 0%;}
    .next {left: 90%;}
- }
+}
