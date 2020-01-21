@@ -229,6 +229,26 @@ body {
   animation-duration: .2s;
 }
 
+.gotopbtn {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255, 0.3);
+  color: darkslategray;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+
 /* FOOTER */
 footer {
   clear: both;
