@@ -2,205 +2,76 @@ body {
   background-color:white;
   font-family: Microsoft Tai Le;
   margin: 0;
-}
-
-
-/* NAVIGATION */
-
-.mainheader {
   padding: 0;
-  z-index: 9999!important;
 }
 
-#logoHome {
-  display: block;
-  float: left;
+.load{
+  animation: slide 2s;
 }
 
-.nameLogo {
-  display: inline;
-  font-size: 30px;
-  font-weight:bolder;
-  clear: left;
-}
-
-.topnav {
-  background-color: white;
-  border: none;
-  font-size: 16pt;
-  padding: 15px;
-  margin: 0;
-  display: inline-block;
-  position: fixed;
-  width: 98%;
-  top: 0;
-  z-index: 99999;
-  text-align: right;
-}
-
-.topnav a {
-  color: darkslategrey;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  padding: 10px 20px;
-}
-.topnav a:hover, .dropdown .dropbtn:hover{
-  color: lightcoral;
- }
-
-.topnav .icon {
-  display: none;
-}
-
-.dropdown {
-  display: inline-block;
-  position: relative;
-}
-
-.dropdown .dropbtn {
-  background: none;
-  border: none;
-  color:darkslategrey;
-  font-size: 16pt;
-  font-family: microsoft tai le;
-  letter-spacing: 6px;
-  padding: 10px 30px 0 30px;
-  text-transform: uppercase;
-}
-
-.dropdown-content {
-  display: none;
-  min-width: 100px;
-  position: absolute;
-  text-align: left;
-  z-index: 1;
-}
-
-
-.dropdown-content a {
-  color: darkslategrey;
-  display: block;
-  padding: 10px;
-  margin: 10px 0 0 20px;
-  text-decoration: none;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-/* MAIN IMAGE CONTENT */
-
-.digital-container {
-  position: relative;
-  display: inline-block;
+.slider{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  
+  height: 100vh;
+  animation: slide 40s infinite;
 }
 
-.digital img{
-  display: block;
-  height: auto;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+.content{
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
 }
 
-
-.content {
-  background-color: white;
-  display: block;
-  margin: 80px auto;
-  padding: 10px;
-}
-
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: .2s;
-  animation-name: fade;
-  animation-duration: .2s;
-}
-
-/* FOOTER */
-footer {
-  clear: both;
+.principal{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  letter-spacing: 5px;
   text-align: center;
 }
 
-
-@-webkit-keyframes fade {
-  from {opacity: .7} 
-  to {opacity: 1}
+.principal h1{
+  font-size: 70px;
+  margin-bottom: 20px;
 }
 
-@keyframes fade {
-  from {opacity: .7} 
-  to {opacity: 1}
+.principal p{
+  font-size: 20px;
 }
 
-/* NAVIGATION - RESPONSIVE RULES */
-
-
-@media screen and (max-width: 700px) {
-   .topnav a, .dropdown .dropbtn {display: none;}
-   .topnav a.icon {
-     /* float: right; */
-     position: absolute;
-     display: inline-grid;
-     font-size: 40px;
-     padding: 20px;
-     /* margin: 0; */
-     top: 0;
-     right: 40px;
-    }
-}
-
-@media screen and (max-width: 700px){
-  .body{overflow: auto !important;}
-}
- 
-@media screen and (max-width: 730px) {
- .topnav.responsive .nameLogo {
-   display: contents;
-   float: left; 
-  } 
-  .topnav.responsive {
-     /* position: relative; */
-     /* padding: 20px; */
-     display: inline-grid;
-     width: 98%;
+@keyframes slide {
+  0%{
+    background-image: url('image/Daenerys Targaryen.jpeg');
   }
-  .topnav.responsive .icon {
-     position: absolute;
-     display: inline-grid;
-     right: 40px;
-     top: 0;
-     padding: 20px;
+  20%{
+    background-image: url('image/Daenerys Targaryen.jpeg');
   }
-  .topnav.responsive a {
-     float: none;
-     display: inline-grid;
-     display: block;
-     text-align: left;
+  20.01%{
+    background-image: url('image/5\ nights\ \(1\).jpg');
   }
-  .topnav.responsive .dropdown {
-     display: inline;
-     /* padding: 10px 0 10px 0; */
+  40%{
+    background-image: url('image/5\ nights\ \(1\).jpg');
   }
-  .topnav.responsive .dropdown-content {
-     position:relative;
+  40.01%{
+    background-image: url('image/Installation\ Fusion.jpg');
   }
-  .topnav.responsive .dropdown-content a{
-     padding: 10px 0 0 30px;
-     margin: 0 0 5px 0;
+  60%{
+    background-image: url('image/Installation\ Fusion.jpg');
   }
-  .topnav.responsive .dropdown .dropbtn {
-     display: block;
-     text-align: left;
-     padding: 10px 20px;
+  60.01%{
+    background-image: url('image/Avatar\ of\ Courage.jpg');
+  }
+  80%{
+    background-image: url('image/Avatar\ of\ Courage.jpg');
+  }
+  80.01%{
+    background-image: url('image/5\ nights\ install.jpg');
+  }
+  100%{
+    background-image: url('image/5\ nights\ install.jpg');
   }
 }
