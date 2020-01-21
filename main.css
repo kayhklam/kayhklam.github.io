@@ -12,6 +12,11 @@ body {
   z-index: 9999!important;
 }
 
+#logoHome {
+  display: inline-block;
+  float: left;
+}
+
 .nameLogo {
   display: inline;
   font-size: 30px;
