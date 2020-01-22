@@ -51,7 +51,7 @@ body {
   color: #fff;
 }
 
-.dropdown .dropdown-content a:hover .dropbtn:hover{
+.dropdown a .dropbtn:hover{
   color: lightcoral;
  }
 
