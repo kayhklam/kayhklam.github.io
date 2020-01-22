@@ -95,10 +95,9 @@ body {
   margin: 5px 10px;
   text-decoration: none;
 }
-.
-.dropdown-content a:hover {
+
+.dropdown:hover .dropdown-content {
   display: block;
-  color: coral;
 }
 
 @keyframes slide {
