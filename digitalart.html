@@ -3,15 +3,19 @@
 
 <head>
   <title>Digital Paintings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/png" href="image/favicon.png">
   <link href="main.css" rel="stylesheet" type="text/css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  <link href="swiper.min.css" rel="stylesheet" type="text/css" />
 
 
 </head>
 
 <body>
+  <script type="text/javascript" src="swiper.min.js"></script>
+
+
   <header class="mainheader">
 
     <nav>
@@ -38,15 +42,9 @@
 
   </header>
 
-  <div class="content">
-
-    <div class="headtext">
-      <p></p>
-    </div>
-
-    <div class="digital-container">
-
-      <div class="mySlides fade">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
 
         <div class="digital">
           <img src="image/koi.jpg" alt="Commissioned artwork 2019">
@@ -74,11 +72,9 @@
           <p>Process shot</p>
           <p>Adobe Photoshop</p>
         </div>
-
       </div>
 
-      <div class="mySlides fade">
-
+      <div class="swiper-slide">
         <div class="digital">
           <img src="image/oct21.jpg" alt="Commissioned artwork 2019">
         </div>
@@ -96,11 +92,9 @@
           <p>Process shot</p>
           <p>Adobe Photoshop</p>
         </div>
-
       </div>
 
-      <div class="mySlides fade">
-
+      <div class="swiper-slide">
         <div class="digital">
           <img src="image/blueye.jpg" alt="Commissioned artwork 2019">
         </div>
@@ -111,8 +105,7 @@
         </div>
       </div>
 
-      <div class="mySlides fade">
-
+      <div class="swiper-slide">
         <div class="digital">
           <img src="image/Avatar of Courage.jpg" alt="Commissioned artwork 2019">
         </div>
@@ -124,8 +117,7 @@
         </div>
       </div>
 
-      <div class="mySlides fade">
-
+      <div class="swiper-slide">
         <div class="digital">
           <img src="image/Maria.jpg" alt="Portrait painting" />
         </div>
@@ -137,8 +129,7 @@
         </div>
       </div>
 
-      <div class="mySlides fade">
-
+      <div class="swiper-slide">
         <div class="digital">
           <img src="image/Self-portrait.jpg" alt="Portrait painting" />
         </div>
@@ -150,8 +141,7 @@
         </div>
       </div>
 
-      <div class="mySlides fade">
-
+      <div class="swiper-slide">
         <div class="digital">
           <img src="image/Daenerys Targaryen.jpeg" alt="Daenerys Targaryen" />
         </div>
@@ -162,21 +152,10 @@
           <p>Krita</p>
         </div>
       </div>
-
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-        <span class="dot" onclick="currentSlide(7)"></span>
-      </div>
     </div>
-
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
   </div>
 
   <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
@@ -193,37 +172,41 @@
     }
   </script>
 
-  <!-- SLIDE SHOW SCRIPT -->
+  <!-- Swiper JS -->
+  <script src="../package/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
   <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = slides.length }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-    }
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
   </script>
 
-  <footer>Copyright &#169 2019 Website by Kay Lam</footer>
+  <!-- SLIDE SHOW SCRIPT -->
+  <!-- <script> -->
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex=slides.length } for (i=0; i < slides.length; i++) { slides[i].style.display="none" ; } for
+    (i=0; i < dots.length; i++) { dots[i].className=dots[i].className.replace(" active", "" ); } slides[slideIndex -
+    1].style.display="block" ; dots[slideIndex - 1].className +=" active" ; } </script> <footer>Copyright &#169 2019
+    Website by Kay Lam</footer>
 
 </body>
 
