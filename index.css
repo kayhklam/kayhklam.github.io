@@ -42,7 +42,7 @@ body {
 }
 
 .principle p{
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .principle a{
@@ -50,6 +50,10 @@ body {
   text-decoration: none;
   color: #fff;
 }
+
+.dropdown .dropbtn:hover{
+  color: lightcoral;
+ }
 
 .dropbtn{
   font-size: 20px;
