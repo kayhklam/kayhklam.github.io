@@ -51,6 +51,48 @@ body {
   color: #fff;
 }
 
+.dropbtn{
+  font-size: 20px;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+
+.dropdown .dropbtn {
+  background: none;
+  border: none;
+  color:darkslategrey;
+  font-size: 20px;
+  font-family: microsoft tai le;
+  letter-spacing: 6px;
+  /* padding: 10px 30px 0 30px; */
+  text-transform: uppercase;
+}
+
+.dropdown-content {
+  display: none;
+  min-width: 100px;
+  position: absolute;
+  text-align: left;
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: darkslategrey;
+  display: block;
+  padding: 10px;
+  /* margin: 10px 0 0 20px; */
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 @keyframes slide {
   0%{
     background-image: url('image/DA.jpg');
