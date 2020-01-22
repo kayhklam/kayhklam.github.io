@@ -261,6 +261,9 @@ footer {
 /* NAVIGATION - RESPONSIVE RULES */
 
 @media screen and (max-width: 900px){
+  .gotopbtn {
+    display: none;
+  }
   .prev, .next {
     position: absolute;
     display: inline-flex;
