@@ -96,7 +96,7 @@ body {
   text-decoration: none;
 }
 .
-.dropdown:hover .dropdown-content {
+.dropdown-content a:hover {
   display: block;
   color: coral;
 }
