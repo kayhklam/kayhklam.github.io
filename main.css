@@ -206,6 +206,12 @@ html, body {
   padding: 20px;
 }
 
+.slidenav {
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+}
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
