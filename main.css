@@ -116,7 +116,7 @@ body {
 
 .digital-container {
   position: relative;
-  display: inline-block;
+  display: block;
   width: 100%;
   
 }
