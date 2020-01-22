@@ -233,7 +233,7 @@ body {
 
 .gotopbtn {
   position: fixed;
-  bottom: 50px;
+  bottom: 20px;
   right: 30px;
   font-size: 26px;
   width: 50px;
