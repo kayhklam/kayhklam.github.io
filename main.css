@@ -1,19 +1,21 @@
 html{
   scroll-behavior: smooth;
-  height: 100%;
 }
 
 body {
   background-color:white;
   font-family: Microsoft Tai Le;
-  margin: 0;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
 /* NAVIGATION */
 
 .mainheader {
-  padding: 0;
   z-index: 9999!important;
 }
 
@@ -33,14 +35,14 @@ body {
   background-color: white;
   border: none;
   font-size: 16pt;
-  padding: 15px;
+  padding: 10px;
   margin: 0;
   display: inline-block;
   position: fixed;
-  width: 98%;
+  width: 100%;
   top: 0;
-  z-index: 99999;
   text-align: right;
+  z-index: 9999;
 }
 
 .topnav a {
@@ -124,7 +126,7 @@ body {
   transition: 0.6s ease;
   user-select: none;
   z-index: 9;
-  position: relative;
+  /* position: relative; */
   top: auto;
   border-radius: 100%;
   display: inline-flex;
@@ -146,8 +148,9 @@ body {
 .content {
   background-color: white;
   display: block;
-  margin: 80px auto;
+  margin: 80px auto 0;
   padding: 10px;
+  min-height: 100%;
 }
 
 /* ABOUT */
@@ -198,9 +201,9 @@ body {
 .sidetext {
   max-width: 600px;
   text-align: left;
-  padding: 20px 0px;
   margin: auto;
   display: block;
+  padding: 20px;
 }
 
 /* The dots/bullets/indicators */
@@ -209,7 +212,6 @@ body {
   height: 10px;
   width: 10px;
   margin: 20px 5px;
-  padding: px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -230,12 +232,11 @@ body {
 
 .gotopbtn {
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 10px;
+  right: 10px;
   font-size: 26px;
   width: 50px;
   height: 50px;
-  background-color: rgb(255, 255, 255, 0.3);
   color: darkslategray;
   cursor: pointer;
   outline: none;
@@ -247,7 +248,6 @@ body {
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
 }
-
 /* FOOTER */
 footer {
   clear: both;
@@ -258,25 +258,9 @@ footer {
 /* NAVIGATION - RESPONSIVE RULES */
 
 @media screen and (max-width: 900px){
-  .gotopbtn {
-    display: none;
+  .slidenav {
+    width:auto;
   }
-  .prev, .next {
-    position: absolute;
-    display: inline-flex;
-    font-size: 25px;
-    padding: 12px;
-    width: 8px;
-    height: 8px;
-    top: 280px;
-    border-radius: 100%
-   }
-   .prev {left: 3%;} 
-   .next {left: 93%;}
-
-   .prev:hover, .next:hover {
-    background-color: rgba(120,120,120,0.3);
-   }
 }
  
 @media screen and (max-width: 730px) {
@@ -306,7 +290,7 @@ footer {
      /* position: relative; */
      /* padding: 20px; */
      display: inline-grid;
-     width: 98%;
+     width: 100%;
    }
    .topnav.responsive .icon {
      position: absolute;
@@ -337,54 +321,4 @@ footer {
      text-align: left;
      padding: 10px 20px;
   }
-}
- 
- 
-@media screen and (max-width: 930px) {
-   .prev, .next {top: 270px;}
-   .prev {left: 2%;}
-   .next {left: 95%;}
-}
-@media screen and (max-width: 830px) {
-   .prev, .next {top: 230px;}
-   .prev {left: 2%;}
-   .next {left: 94%;}
-}
-@media screen and (max-width: 768px) {
-   .prev, .next {top: 200px;}
-   .prev {left: 1%;}
-   .next {left: 95%;}
-}
- 
-@media screen and (max-width: 650px) {
-   .prev, .next {top: 180px;}
-   .prev {left: 1%;}
-   .next {left: 93%;}
-}
-
-@media screen and (max-width: 600px) {
-   .footer {
-     display: none;
-   }
- }
- 
-@media screen and (max-width: 550px) {
-   .prev, .next {top: 150px;}
-   .prev {left: 1%;}
-   .next {left: 93%;}
-}
-@media screen and (max-width: 414px) {
-   .prev, .next {top: 100px;}
-   .prev {left: 1%;}
-   .next {left: 90%;}
-}
-@media screen and (max-width: 375px) {
-   .prev, .next {top: 90px;}
-   .prev {left: 1%;}
-   .next {left: 90%;}
-}
-@media screen and (max-width: 320px) {
-   .prev, .next {top: 75px}
-   .prev {left: 0%;}
-   .next {left: 90%;}
 }
