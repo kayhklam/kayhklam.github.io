@@ -72,12 +72,12 @@ body {
 
 .dropdown .dropbtn {
   background: none;
-  border: none;
-  color:white;
+  border: 1px solid white;
+  color: white;
   font-size: 20px;
   font-family: microsoft tai le;
   letter-spacing: 5px;
-  /* padding: 10px 30px 0 30px; */
+  padding: 10px;
   text-transform: uppercase;
 }
 
@@ -89,15 +89,13 @@ body {
   z-index: 1;
 }
 
-
 .dropdown-content a {
   color: white;
   display: block;
-  padding: 10px;
-  /* margin: 10px 0 0 20px; */
+  margin: 5px 10px;
   text-decoration: none;
 }
-
+.
 .dropdown:hover .dropdown-content {
   display: block;
   color: coral;
