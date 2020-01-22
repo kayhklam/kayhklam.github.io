@@ -79,6 +79,7 @@ body {
   letter-spacing: 5px;
   padding: 10px;
   text-transform: uppercase;
+  outline: none;
 }
 
 .dropdown-content {
