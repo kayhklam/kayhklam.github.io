@@ -117,31 +117,27 @@ body {
 /* Next & prev buttons */
 .prev, .next {
   cursor: pointer;
-  padding: 16px;
+  padding: 18px;
   color: gray;
   /* font-weight: bold; */
   font-size: 30px;
   transition: 0.6s ease;
   user-select: none;
-  z-index: 1;
-  position: absolute;
-  top: 300px;
+  z-index: 9;
+  position: relative;
+  top: auto;
   border-radius: 100%;
   display: inline-flex;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
 
-.next {
-  left: 80%;
-}
+.next {float: right;}
 
-.prev {
-  left: 18%;
-}
+.prev {float: left;}
 
 .prev:hover, .next:hover {
   background-color: rgba(120,120,120,0.2);
@@ -212,7 +208,8 @@ body {
   cursor: pointer;
   height: 10px;
   width: 10px;
-  margin: 10px 5px;
+  margin: 20px 5px;
+  padding: px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
