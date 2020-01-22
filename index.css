@@ -91,6 +91,7 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  color: coral;
 }
 
 @keyframes slide {
