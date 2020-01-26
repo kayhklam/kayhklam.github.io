@@ -73,6 +73,7 @@ body {
 .dropdown .dropbtn {
   background: none;
   border: 1px solid white;
+  border-radius: 30px;
   color: white;
   font-size: 20px;
   font-family: microsoft tai le;
@@ -93,8 +94,9 @@ body {
 .dropdown-content a {
   color: white;
   display: block;
-  margin: 5px 10px;
+  margin: 10px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .dropdown:hover .dropdown-content {
