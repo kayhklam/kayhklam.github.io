@@ -181,9 +181,10 @@ html, body {
 /* Caption text */
 
 .headtext {
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
-  font-size: 20pt;
+  letter-spacing: 2px;
+  font-size: 30px;
 }
 
 .text {
