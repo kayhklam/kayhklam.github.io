@@ -154,6 +154,10 @@ html, body {
   min-height: 100%;
 }
 
+#okolash-link {
+  text-decoration: none;
+}
+
 /* ABOUT */
 
 .aboutcontent {
