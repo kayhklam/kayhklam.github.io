@@ -88,6 +88,7 @@ html, body {
 
 
 .dropdown-content a {
+  background-color: rgb( 255, 255, 255, 0.8);
   color: darkslategrey;
   display: block;
   padding: 10px;
@@ -172,14 +173,8 @@ html, body {
   padding: 10px;
 }
 
-.aboutname img .profile img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-}
 .abouttext {
- display: inline-block;
+ display: block;
  text-align: left;
  max-width: 600px;
  height: auto;
