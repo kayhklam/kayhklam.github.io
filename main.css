@@ -280,8 +280,8 @@ footer {
      /* float: right; */
      position: absolute;
      display: inline-grid;
-     font-size: 40px;
-     padding: 20px;
+     font-size: 30px;
+     padding: 20px 10px;
      /* margin: 0; */
      top: 0;
      right: 40px;
@@ -308,7 +308,7 @@ footer {
      display: inline-grid;
      right: 40px;
      top: 0;
-     padding: 20px;
+     padding: 20px 10px;
    }
    .topnav.responsive a {
      float: none;
