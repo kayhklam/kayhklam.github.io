@@ -171,6 +171,7 @@ html, body {
   height: auto;
   text-align: center;
   padding: 10px;
+  overflow: auto;
 }
 
 .abouttext {
@@ -178,6 +179,7 @@ html, body {
  text-align: left;
  max-width: 600px;
  height: auto;
+ overflow: auto;
 }
 
 
