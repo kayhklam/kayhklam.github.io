@@ -180,6 +180,7 @@ html, body {
  max-width: 600px;
  height: auto;
  overflow: auto;
+ clear: left;
 }
 
 
