@@ -180,6 +180,8 @@ html, body {
 .abouttext {
  display: inline-block;
  text-align: left;
+ max-width: 600px;
+ height: auto;
 }
 
 
