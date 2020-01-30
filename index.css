@@ -87,7 +87,7 @@ body {
   display: none;
   min-width: 100px;
   position: absolute;
-  text-align: left;
+  text-align: center;
   z-index: 1;
 }
 
