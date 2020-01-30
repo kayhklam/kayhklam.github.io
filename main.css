@@ -255,6 +255,10 @@ html, body {
   color: darkslategrey;
 }
 
+#okolash-link {
+  font-weight: bold;
+}
+
 /* FOOTER */
 footer {
   clear: both;
