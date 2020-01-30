@@ -167,8 +167,9 @@ html, body {
   position: relative;
   margin:  80px auto;
   max-width: 600px;
+  height: auto;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
 }
 
 .aboutname img .profile img{
