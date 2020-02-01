@@ -26,7 +26,7 @@ html, body {
 .nameLogo {
   display: block;
   font-size: 28px;
-  font-weight: 100;
+  font-weight: 300;
   padding: 10px;
 }
 
@@ -155,12 +155,14 @@ h3 {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 p {
   font-size: 14px;
   margin: 5px 0;
+  color: darkslategrey;
+  font-weight: 200;
 }
 
 /* Next & prev buttons */
@@ -229,6 +231,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 6px;
   font-size: 20px;
+  font-weight: 300;
 }
 
 .sidetext {
