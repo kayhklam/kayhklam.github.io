@@ -162,7 +162,7 @@ p {
   font-size: 14px;
   margin: 5px 0;
   color: darkslategrey;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 /* Next & prev buttons */
@@ -305,7 +305,7 @@ footer {
   clear: both;
   text-align: center;
   color: darkslategrey;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 12px;
   padding: 5px 0;
 }
