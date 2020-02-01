@@ -57,13 +57,13 @@ html, body {
   display: none;
 }
 
-/* .dropdown { */
+/* .dropdown {
   display: inline-block;
   position: relative;
 }
 
 
-/* .dropdown .dropbtn { */
+.dropdown .dropbtn {
   background: none;
   border: none;
   color:darkslategrey;
@@ -75,7 +75,7 @@ html, body {
   outline: none;
 }
 
-/* .dropdown-content { */
+.dropdown-content {
   display: none;
   min-width: 100px;
   position: absolute;
@@ -84,7 +84,7 @@ html, body {
 }
 
 
-/* .dropdown-content a { */
+.dropdown-content a {
   background-color: rgb( 255, 255, 255, 0.8);
   color: darkslategrey;
   display: block;
@@ -93,9 +93,9 @@ html, body {
   text-decoration: none;
 }
 
-/* .dropdown:hover .dropdown-content { */
+.dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
 
 /* MAIN IMAGE CONTENT */
@@ -159,7 +159,7 @@ html, body {
 /* ABOUT */
 
 .aboutcontent {
-  background-color: white;
+  background-color: whitesmoke;
   display: block;
   position: relative;
   margin:  80px auto;
