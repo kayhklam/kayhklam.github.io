@@ -34,7 +34,7 @@ html, body {
   background-color: whitesmoke;
   border: none;
   font-size: 12px;
-  /* padding: 10px; */
+  padding: 0 0 20px 0;
   display: inline-block;
   /* position: fixed; */
   width: 100%;
@@ -123,6 +123,7 @@ html, body {
 .hometext {
   font-size: 12px;
   color: darkslategrey;
+  text-align: center;
 }
 
 /* MAIN IMAGE CONTENT */
