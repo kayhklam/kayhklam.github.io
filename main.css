@@ -21,6 +21,9 @@ html, body {
 
 #logoHome {
   letter-spacing: 5px;
+  padding: 10px;
+  display: block;
+  position: relative;
 }
 
 .nameLogo {
