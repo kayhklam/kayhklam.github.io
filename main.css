@@ -3,7 +3,7 @@ html{
 }
 
 body {
-  background-color:whitesmoke  ;
+  background-color:white;
   font-family: Microsoft Tai Le;
 }
 
@@ -34,7 +34,7 @@ html, body {
 }
 
 .topnav {
-  background-color: whitesmoke;
+  background-color: white;
   border: none;
   font-size: 12px;
   padding: 10px 0;
@@ -101,7 +101,7 @@ html, body {
 } */
 
 .homecontent {
-  background-color: whitesmoke;
+  background-color: white;
   display: block;
   margin: auto;
   padding: 40px 0 10px 0;
@@ -109,7 +109,7 @@ html, body {
 }
 
 .homeimage {
-  background-color: whitesmoke;
+  background-color: white;
   position: relative;
   display: block;
   width: 100%;
@@ -131,7 +131,7 @@ html, body {
 
 /* MAIN IMAGE CONTENT */
 .content {
-  background-color: whitesmoke;
+  background-color: white;
   display: block;
   margin: auto;
   padding: 10px;
@@ -139,7 +139,7 @@ html, body {
 }
 
 .digital-container {
-  background-color: whitesmoke;
+  background-color: white;
   position: relative;
   display: block;
   width: 100%;
@@ -203,7 +203,7 @@ p {
 /* ABOUT */
 
 .aboutcontent {
-  background-color: whitesmoke;
+  background-color: white;
   display: block;
   position: relative;
   margin:  20px auto;
@@ -228,8 +228,8 @@ p {
 /* Caption text */
 
 .headtext {
-  background-color: whitesmoke;
-  color: whitesmoke;
+  background-color: white;
+  color: white;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 6px;
