@@ -55,6 +55,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 6px;
   padding: 10px 20px;
+  text-align: center;
 }
 .topnav a:hover, .dropdown .dropbtn:hover{
   color: lightcoral;
@@ -77,16 +78,18 @@ img {
   font-size: 12px;
   font-family: microsoft tai le;
   letter-spacing: 6px;
-  padding: 10px 30px 0 30px;
+  padding: 10px 20px;
   text-transform: uppercase;
   outline: none;
+  position: relative;
+  text-align: center;
 }
 
 .dropdown-content {
   display: none;
   min-width: 100px;
   position: absolute;
-  text-align: left;
+  text-align: center;
   z-index: 1;
 }
 
@@ -96,8 +99,9 @@ img {
   color: darkslategrey;
   display: block;
   padding: 10px;
-  margin: 10px 0 0 20px;
+  margin: 10px 0 0 10px;
   text-decoration: none;
+  text-align: center;
 }
 
 .dropdown:hover .dropdown-content {
@@ -402,7 +406,7 @@ footer {
    float: none;
    display: inline-grid;
    display: block;
-   text-align: center;
+   text-align: lef;
    /* padding: 20px auto; */
   }
   .topnav.responsive .dropdown {display: inline;}
@@ -412,8 +416,8 @@ footer {
    margin: 0 0 5px 0;
   }
   .topnav.responsive .dropdown .dropbtn {
-   display: block;
+   display: inline-block;
    text-align: center;
-   padding: 10px 20px;
+   /* padding: 10px 20px; */
   }
 }
