@@ -153,7 +153,7 @@ img {
 
 .digital img{
   display: block;
-  height: 600px;
+  height: auto;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -371,17 +371,17 @@ footer {
    display: inline-grid;
    display: block;
    text-align: center;
-   padding: 20px auto;
+   /* padding: 20px auto; */
   }
   .topnav.responsive .dropdown {display: inline;}
   .topnav.responsive .dropdown-content {position:relative;}
   .topnav.responsive .dropdown-content a{
-   padding: 10px 0 0 30px;
+   /* padding: 10px 0 0 30px; */
    margin: 0 0 5px 0;
   }
   .topnav.responsive .dropdown .dropbtn {
    display: block;
-   text-align: left;
+   text-align: center;
    padding: 10px 20px;
   }
 }
