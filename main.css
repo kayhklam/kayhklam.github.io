@@ -92,7 +92,7 @@ img {
 
 
 .dropdown-content a {
-  background-color: rgb( 255, 255, 255, 0.8);
+  background-color: rgba(238, 238, 238, 0.8);
   color: darkslategrey;
   display: block;
   padding: 10px;
