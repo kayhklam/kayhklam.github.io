@@ -32,7 +32,7 @@ img {
 
 .nameLogo {
   display: block;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 300;
   padding: 10px;
 }
@@ -54,7 +54,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 6px;
-  padding: 10px 20px;
+  padding: 10px 40px;
   text-align: center;
 }
 .topnav a:hover, .dropdown .dropbtn:hover{
@@ -67,7 +67,7 @@ img {
 
 .dropdown {
   display: inline-block;
-  position: relative;
+  /* position: relative; */
 }
 
 
@@ -78,7 +78,7 @@ img {
   font-size: 12px;
   font-family: microsoft tai le;
   letter-spacing: 6px;
-  padding: 10px 20px;
+  padding: 5px 10px;
   text-transform: uppercase;
   outline: none;
   position: relative;
@@ -87,7 +87,7 @@ img {
 
 .dropdown-content {
   display: none;
-  min-width: 100px;
+  /* min-width: 100px; */
   position: absolute;
   text-align: center;
   z-index: 1;
@@ -95,11 +95,11 @@ img {
 
 
 .dropdown-content a {
-  background-color: rgba(238, 238, 238, 0.8);
+  background-color: rgba(245, 245, 245, 0.8);
   color: darkslategrey;
   display: block;
   padding: 10px;
-  margin: 10px 0 0 10px;
+  margin: 10px;
   text-decoration: none;
   text-align: center;
 }
@@ -121,7 +121,8 @@ img {
   background-color: white;
   position: relative;
   display: block;
-  width: 100%;
+  max-width: 100%;
+  padding: 20px;
 }
 
 .homeimage img{
@@ -270,7 +271,7 @@ p {
 
 .headtext {
   background-color: white;
-  color: white;
+  color: darkslategrey;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 6px;
