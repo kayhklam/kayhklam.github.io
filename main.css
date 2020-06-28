@@ -395,6 +395,7 @@ footer {
    /* padding: 20px; */
    display: inline-grid;
    width: 100%;
+   top: 0;
   }
   .topnav.responsive .icon {
    position: absolute;
