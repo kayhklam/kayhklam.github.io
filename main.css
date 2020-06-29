@@ -90,7 +90,7 @@ img {
 
 .dropdown-content {
   display: none;
-  /* min-width: 100px; */
+  min-width: 100px;
   position: absolute;
   text-align: center;
   z-index: 1;
@@ -98,13 +98,12 @@ img {
 
 
 .dropdown-content a {
-  background-color: rgba(245, 245, 245, 0.8);
+  background-color: rgba(248, 248, 248, 0.950);
   color: darkslategrey;
   display: block;
+  margin: 0;
   padding: 10px;
-  margin: 10px;
   text-decoration: none;
-  text-align: center;
 }
 
 .dropdown:hover .dropdown-content {
@@ -116,7 +115,7 @@ img {
   background-color: white;
   display: block;
   margin: auto;
-  padding: 40px 0 0 0;
+  /* padding: 40px 0 0 0; */
   min-height: calc(100vh - 133px - 25px);
 }
 
@@ -137,9 +136,14 @@ img {
 }
 
 .hometext {
-  font-size: 12px;
+  background-color: white;
   color: darkslategrey;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 22px;
+  font-weight: 300;
+  padding: 20px;
 }
 
 /* MAIN IMAGE CONTENT */
