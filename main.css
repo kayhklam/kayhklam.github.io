@@ -37,7 +37,7 @@ img {
   display: block;
   font-size: 30px;
   font-weight: 300;
-  padding: 10px;
+  padding: 0;
 }
 
 .topnav {
@@ -92,7 +92,6 @@ img {
   display: none;
   min-width: 100px;
   position: absolute;
-  text-align: center;
   z-index: 1;
 }
 
@@ -101,8 +100,9 @@ img {
   background-color: rgba(248, 248, 248, 0.950);
   color: darkslategrey;
   display: block;
-  margin: 0;
+  margin: 0 0 0 30px;
   padding: 10px;
+  text-align: left;
   text-decoration: none;
 }
 
@@ -283,6 +283,7 @@ p {
   letter-spacing: 6px;
   font-size: 20px;
   font-weight: 300;
+  padding: 10px;
 }
 
 .sidetext {
@@ -372,6 +373,7 @@ footer {
   #logoHome {
   display: block;
   float: left;
+  padding: 20px;
   }
   .headtext {color: darkslategrey;}
   .topnav a, .dropdown .dropbtn {display: none;}
