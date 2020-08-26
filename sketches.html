@@ -2,12 +2,11 @@
 <html>
 
 <head>
-  <title>Traditional Art</title>
+  <title>Sketches</title>
   <link rel="shortcut icon" type="image/png" href="image/favicon.png">
   <link href="main.css" rel="stylesheet" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-  <script src="script/digitalart.js"></script>
 </head>
 
 <body>
@@ -18,13 +17,9 @@
         <div class="nameLogo">
           <a href="index.html" id="logoHome">Kay Lam</a>
         </div>
-        <div class="dropdown">
-          <button class="dropbtn" style="color: lightcoral;">Paintings</button>
-          <div class="dropdown-content">
-            <a href="digitalart.html">Digital</a>
-            <a href="traditional.html">Traditional</a>
-          </div>
-        </div>
+        <a href="digitalart.html">Digital</a>
+        <a href="traditional.html">Traditional</a>
+        <a href="sketches.html" style="color: lightcoral;">Sketches</a>
         <a href="exhibitions.html">Exhibitions</a>
         <a href="about.html">Info</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -35,10 +30,10 @@
   <div class="content">
 
     <div class="headtext">
-      Traditional Art
+      Sketches
     </div>
 
-    <div class="digital-small-container">
+    <div class="digital-container">
 
       <div class="slidenav">
         <div style="text-align:center;/* padding: 10px; */">
@@ -47,34 +42,74 @@
           <div class="dots">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
           </div>
         </div>
       </div>
 
       <div class="mySlides fade">
 
-        <div class="digital-small">
-          <img src="image/commission2016.jpg" alt="Doug painting" style="width: auto">
+        <div class="digital">
+          <img src="image/Taylor Hill.png" alt="Study" />
         </div>
-        <div class="sidetext">
-          <p>2016 commissioned oil painting</p>
-        </div>
+
       </div>
 
       <div class="mySlides fade">
 
-        <div class="digital-small">
-          <img src="image/grandma.jpg" alt="Grandmother painting" style="width: auto" />
+        <div class="digital">
+          <img src="image/Barbara Palvin.png" alt="Barbara Palvin">
         </div>
-        <div class="sidetext">
-          <p>2016 commissioned oil painting</p>
+
+      </div>
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Doug.jpg" alt="Portrait drawing" />
         </div>
+
+      </div>
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Lana Del Ray.jpg" alt="Study" />
+        </div>
+
+      </div>
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Alex Pettyfer.jpg" alt="Study" />
+        </div>
+
+      </div>
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Robin Williams.jpg" alt="Study" />
+        </div>
+
+      </div>
+
+      <div class="mySlides fade">
+
+        <div class="digital">
+          <img src="image/Jeff huntington.jpg" alt="Study" />
+        </div>
+
       </div>
 
     </div>
-  </div>
 
-  <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
+  </div>
 
   <!-- TOP NAVIGATION SCRIPT -->
   <script>
@@ -119,6 +154,7 @@
   </script>
 
   <footer>Copyright &#169 2020 created by Kay Lam</footer>
+
 </body>
 
 
