@@ -162,10 +162,13 @@ html, body {
   width: 100%;
 } */
 
+.gallery{
+  margin: 10px;
+}
+
 .gallery img {
-  max-width: 350px;
-  max-height: 200px;
-  padding: 5px;
+  max-height: 350px;
+  padding: 4px;
 }
 .gallery img:hover{
   filter: grayscale(100%);
@@ -432,5 +435,10 @@ footer {
    display: inline-block;
    text-align: center;
    /* padding: 10px 20px; */
+  }
+  .gallery img{
+    padding: 0;
+    max-height: 500px;
+    max-width: 100%;
   }
 }
