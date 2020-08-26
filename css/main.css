@@ -16,9 +16,9 @@ html, body {
   /* height: 100%; */
 }
 
-img {
+/* img {
   pointer-events: none;
-}
+} */
 
 /* NAVIGATION */
 
@@ -161,6 +161,15 @@ img {
   display: block;
   width: 100%;
 } */
+
+.gallery img {
+  max-width: 350px;
+  max-height: 200px;
+  padding: 5px;
+}
+.gallery img:hover{
+  filter: grayscale(100%);
+}
 
 .digital-small{
   cursor: zoom-in;

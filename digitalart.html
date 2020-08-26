@@ -4,10 +4,12 @@
 <head>
   <title>Digital Art</title>
   <link rel="shortcut icon" type="image/png" href="image/favicon.png">
-  <link href="main.css" rel="stylesheet" type="text/css" />
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/lightbox.min.css" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-  <script src="script/digitalart.js"></script>
+  <script src="js/digitalart.js"></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 
 <body>
@@ -25,8 +27,6 @@
             <a href="traditional.html">Traditional</a>
           </div>
         </div>
-        <!-- <a href="traditional.html">Traditional</a>
-        <a href="sketches.html">Sketches</a> -->
         <a href="exhibitions.html">Exhibitions</a>
         <a href="about.html">Info</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -40,426 +40,35 @@
       Digital Art
     </div>
 
-    <div class="digital-container">
-
-      <div class="slidenav">
-        <div style="text-align:center;/* padding: 10px; */">
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
-          <div class="dots">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-            <span class="dot" onclick="currentSlide(7)"></span>
-            <span class="dot" onclick="currentSlide(8)"></span>
-            <span class="dot" onclick="currentSlide(9)"></span>
-            <span class="dot" onclick="currentSlide(10)"></span>
-            <span class="dot" onclick="currentSlide(11)"></span>
-            <span class="dot" onclick="currentSlide(12)"></span>
-            <span class="dot" onclick="currentSlide(13)"></span>
-            <span class="dot" onclick="currentSlide(14)"></span>
-            <span class="dot" onclick="currentSlide(15)"></span>
-            <span class="dot" onclick="currentSlide(16)"></span>
-            <span class="dot" onclick="currentSlide(17)"></span>
-            <span class="dot" onclick="currentSlide(18)"></span>
-            <span class="dot" onclick="currentSlide(19)"></span>
-            <span class="dot" onclick="currentSlide(20)"></span>
-            <span class="dot" onclick="currentSlide(21)"></span>
-            <span class="dot" onclick="currentSlide(22)"></span>
-            <!-- <span class="dot" onclick="currentSlide(23)"></span> -->
-            <!-- <span class="dot" onclick="currentSlide(24)"></span> -->
-          </div>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study20.gif">
-        </div>
-        <div class="sidetext">
-          <h3><i>staycation</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study15.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>spiky</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study14.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>mood</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study13.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>starlight</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study12.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>poivre</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study11.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>prevail</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study10.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>curls</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study9.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>await</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study8.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>red</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study7.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>hairclip</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study6.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>bored</i></h3>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study5.gif">
-        </div>
-        <div class="sidetext">
-          <h3><i>Horn of Plenty (of diamond tears)</i></h3>
-          <p>Lee Alexander McQueen tribute</p>
-        </div>
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study4.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>gaze</i></h3>
-        </div>
-
-      </div>
-
-      <!-- <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/nad.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>Nadia</i></h3>
-        </div>
-
-      </div> -->
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/saiyon.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>Saiyon</i></h3>
-        </div>
-
-        <!-- <div class="digital-small">
-          <img src="image/Saiyon.gif">
-        </div>
-        <div class="sidetext"> 
-          <p>Process shot</p>
-          <p>Adobe Photoshop</p>
-        </div> -->
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study3.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>pose</i></h3>
-        </div>
-
-        <!-- <div class="digital-small">
-          <img src="image/F03.gif">
-        </div>
-        <div class="sidetext">
-          <p>Process shot</p>
-          <p>Adobe Photoshop</p>
-        </div> -->
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/alicia.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>Alicia</i></h3>
-        </div>
-        <!-- 
-        <div class="digital-small">
-          <img src="image/alicialau.gif">
-        </div>
-        <div class="sidetext">
-          <p>Process shot</p>
-          <p>Adobe Photoshop</p>
-        </div> -->
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study2.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>earrings</i></h3>
-        </div>
-
-        <!-- <div class="digital-small">
-          <img src="image/F02.gif">
-        </div>
-        <div class="sidetext">
-          <p>Process shot</p>
-          <p>Adobe Photoshop</p>
-        </div> -->
-
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/study1.jpg">
-        </div>
-        <div class="sidetext">
-          <h3><i>wispy</i></h3>
-        </div>
-        <!-- 
-        <div class="digital-small">
-          <img src="image/F01.gif">
-        </div>
-        <div class="sidetext">
-          <p>Process shot</p>
-          <p>Adobe Photoshop</p>
-        </div> -->
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/oct21.jpg" alt="Commissioned artwork 2019">
-        </div>
-        <div class="sidetext">
-          <h3><i>Lights</i></h3>
-          <p>2019</p>
-        </div>
-
-        <!-- <div class="digital-small">
-          <img src="image/oct21.gif" alt="Commissioned artwork 2019">
-        </div>
-        <div class="sidetext">
-          <p>Process shot</p>
-          <p>Adobe Photoshop</p>
-        </div> -->
-
-      </div>
-
-     <!-- <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/koi.png" alt="Commissioned artwork 2020">
-        </div>
-        <div class="sidetext">
-          <h3><i>Koi</i></h3>
-          <p>2020 commissioned online artwork for Water Margin website</p>
-        </div>
-
-        <div class="digital">
-          <img src="image/watermargin.png" alt="Commissioned artwork 2020">
-        </div>
-        <div class="sidetext">
-          <p>Recreated logo</p>
-          <p>Adobe Illustrator</p>
-        </div>
-
-        <div class="digital-small">
-          <img src="image/koi.jpg" alt="Commissioned artwork 2020">
-        </div> -->
-
-        <!-- <br>
-
-        <div class="digital-small">
-          <img src="image/koi.gif" alt="Commissioned artwork 2020">
-        </div>
-        <div class="sidetext">
-          <p>Process shot</p>
-          <p>Adobe Photoshop</p>
-        </div> 
-
-       </div> -->
-
-      <!-- <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/blueye.jpg" alt="Commissioned artwork 2019">
-        </div>
-        <div class="sidetext">
-          <h3><i>Lashes</i></h3>
-          <p>2019 commissioned online artwork for <a
-              href="https://www.instagram.com/p/B2jUgrcAXiK/?utm_source=ig_web_copy_link"
-              id="okolash-link">@okolashes_</a></p>
-          <p>Adobe Photoshop</p>
-        </div>
-      </div> -->
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/avatarofcourage.jpg" alt="Commissioned artwork 2019">
-        </div>
-        <div class="sidetext">
-          <h3><i>Avatar of Courage</i></h3>
-          <p>2019 commissioned card game artwork, The Games Hub</p>
-          <p>Adobe Photoshop</p>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/selfportrait.jpg" alt="Portrait painting" />
-        </div>
-        <div class="sidetext">
-          <h3><i>Self-Portrait Study</i></h3>
-          <p>2017</p>
-          <p>Krita</p>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/daenerystargaryen.jpg" alt="Daenerys Targaryen" />
-        </div>
-        <div class="sidetext">
-          <h3><i>Daenerys Targaryen</i></h3>
-          <p>2017 fan art</p>
-          <p>Krita</p>
-        </div>
-      </div>
+    <div class="gallery">
+      <a href="image/study23.jpg" data-lightbox="mygallery"><img src="image/study23.jpg"></a>
+      <a href="image/study20.gif" data-lightbox="mygallery"><img src="image/study20.gif"></a>
+      <a href="image/study19.jpg" data-lightbox="mygallery"><img src="image/study19.jpg"></a>
+      <a href="image/study15.jpg" data-lightbox="mygallery"><img src="image/study15.jpg"></a>
+      <a href="image/study14.jpg" data-lightbox="mygallery"><img src="image/study14.jpg"></a>
+      <a href="image/study13.jpg" data-lightbox="mygallery"><img src="image/study13.jpg"></a>
+      <a href="image/study12.jpg" data-lightbox="mygallery"><img src="image/study12.jpg"></a>
+      <a href="image/study11.jpg" data-lightbox="mygallery"><img src="image/study11.jpg"></a>
+      <a href="image/study10.jpg" data-lightbox="mygallery"><img src="image/study10.jpg"></a>
+      <a href="image/study9.jpg" data-lightbox="mygallery"><img src="image/study9.jpg"></a>
+      <a href="image/study8.jpg" data-lightbox="mygallery"><img src="image/study8.jpg"></a>
+      <a href="image/study7.jpg" data-lightbox="mygallery"><img src="image/study7.jpg"></a>
+      <a href="image/study6.jpg" data-lightbox="mygallery"><img src="image/study6.jpg"></a>
+      <a href="image/study5.gif" data-lightbox="mygallery"><img src="image/study5.gif"></a>
+      <a href="image/study4.jpg" data-lightbox="mygallery"><img src="image/study4.jpg"></a>
+      <a href="image/study3.jpg" data-lightbox="mygallery"><img src="image/study3.jpg"></a>
+      <a href="image/study2.jpg" data-lightbox="mygallery"><img src="image/study2.jpg"></a>
+      <a href="image/study1.jpg" data-lightbox="mygallery"><img src="image/study1.jpg"></a>
+      <a href="image/alicia.jpg" data-lightbox="mygallery"><img src="image/alicia.jpg"></a>
+      <a href="image/saiyon.jpg" data-lightbox="mygallery"><img src="image/saiyon.jpg"></a>
+      <a href="image/oct21.jpg" data-lightbox="mygallery"><img src="image/oct21.jpg"></a>
+      <a href="image/selfportrait.jpg" data-lightbox="mygallery"><img src="image/selfportrait.jpg"></a>
+      <a href="image/avatarofcourage.jpg" data-lightbox="mygallery"><img src="image/avatarofcourage.jpg"></a>
+      <a href="image/daenerystargaryen.jpg" data-lightbox="mygallery"><img src="image/daenerystargaryen.jpg"></a>
     </div>
+
   </div>
 
-  <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
-
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = slides.length }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-    }
-  </script>
   <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
