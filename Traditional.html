@@ -4,10 +4,12 @@
 <head>
   <title>Traditional Art</title>
   <link rel="shortcut icon" type="image/png" href="image/favicon.png">
-  <link href="main.css" rel="stylesheet" type="text/css" />
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/lightbox.min.css" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-  <script src="script/digitalart.js"></script>
+  <script src="js/digitalart.js"></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 
 <body>
@@ -38,45 +40,13 @@
       Traditional Art
     </div>
 
-    <div class="digital-small-container">
-
-      <div class="slidenav">
-        <div style="text-align:center;/* padding: 10px; */">
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
-          <div class="dots">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-          </div>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/commission2016.jpg" alt="Doug painting" style="width: auto">
-        </div>
-        <div class="sidetext">
-          <p>2016 commissioned oil painting</p>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-
-        <div class="digital-small">
-          <img src="image/grandma.jpg" alt="Grandmother painting" style="width: auto" />
-        </div>
-        <div class="sidetext">
-          <p>2016 commissioned oil painting</p>
-        </div>
-      </div>
-
+    <div class="gallery">
+      <a href="image/commission2016.jpg" data-lightbox="mygallery"><img src="image/commission2016.jpg"></a>
+      <a href="image/grandma.jpg" data-lightbox="mygallery"><img src="image/grandma.jpg"></a>
     </div>
+
   </div>
 
-  <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
-
-  <!-- TOP NAVIGATION SCRIPT -->
   <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
@@ -88,39 +58,8 @@
     }
   </script>
 
-  <!-- SLIDE SHOW SCRIPT -->
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
+  <footer>Copyright &#169 2020 Kay Lam</footer>
 
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = slides.length }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-    }
-  </script>
-
-  <footer>Copyright &#169 2020 created by Kay Lam</footer>
 </body>
-
-
 
 </html>
