@@ -16,10 +16,6 @@ html, body {
   /* height: 100%; */
 }
 
-/* img {
-  pointer-events: none;
-} */
-
 /* NAVIGATION */
 
 .mainheader {
@@ -254,11 +250,6 @@ p {
   background-color: rgba(120,120,120,0.2);
 } */
 
-#okolash-link {
-  text-decoration: none;
-  color: black;
-}
-
 /* ABOUT */
 
 .aboutcontent {
@@ -357,10 +348,6 @@ p {
 #insta {
   font-size: 30px;
   color: darkslategrey;
-}
-
-#okolash-link {
-  font-weight: bold;
 }
 
 /* FOOTER */
