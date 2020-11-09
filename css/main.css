@@ -162,7 +162,7 @@ html, body {
 }
 
 .gallery img {
-  max-height: 350px;
+  max-height: 400px;
   padding: 4px;
 }
 .gallery img:hover{
