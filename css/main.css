@@ -35,6 +35,10 @@ html, body {
   padding: 0;
 }
 
+.nameLogo img{
+  max-height: 90px;
+}
+
 .topnav {
   background-color: white;
   border: none;
@@ -51,8 +55,8 @@ html, body {
   color: darkslategrey;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 6px;
-  padding: 10px 40px;
+  letter-spacing: 8px;
+  padding: 5px 40px;
   text-align: center;
 }
 .topnav a:hover, .dropdown .dropbtn:hover{
@@ -76,7 +80,7 @@ html, body {
   font-size: 12px;
   font-family: microsoft tai le;
   letter-spacing: 6px;
-  padding: 10px 40px;
+  padding: 5px 40px;
   text-transform: uppercase;
   outline: none;
   position: relative;
@@ -135,12 +139,11 @@ html, body {
   color: darkslategrey;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 8px;
   font-size: 22px;
   font-weight: 300;
   padding: 20px;
 }
-
 /* MAIN IMAGE CONTENT */
 .content {
   background-color: white;
