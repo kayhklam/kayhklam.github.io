@@ -56,7 +56,7 @@ html, body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 8px;
-  padding: 5px 40px;
+  padding: 10px 40px;
   text-align: center;
 }
 .topnav a:hover, .dropdown .dropbtn:hover{
@@ -80,7 +80,7 @@ html, body {
   font-size: 12px;
   font-family: microsoft tai le;
   letter-spacing: 6px;
-  padding: 5px 40px;
+  padding: 10px 40px;
   text-transform: uppercase;
   outline: none;
   position: relative;
