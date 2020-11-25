@@ -166,8 +166,8 @@ html, body {
 }
 
 .gallery img {
-  max-height: 600px;
-  padding: 4px;
+  max-height: 400px;
+  padding: 3px;
 }
 .gallery img:hover{
   /* filter: grayscale(100%); */
