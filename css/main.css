@@ -159,10 +159,11 @@ html, body {
 
 .gallery{
   margin: 10px;
+  text-align: center;
 }
 
 .gallery img {
-  max-height: 400px;
+  max-height: 600px;
   padding: 4px;
 }
 .gallery img:hover{
