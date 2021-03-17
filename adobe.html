@@ -2,48 +2,70 @@
 <html>
 
 <head>
-    <title>Kay Lam Artist</title>
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="image/favicon.png">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  <title>Kay Lam Artist</title>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="image/favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 </head>
 
 <body>
 
-    <header class="mainheader">
-        <nav>
-            <div class="topnav" id="myTopnav">
-                <div class="nameLogo">
-                    <a href="index.html" id="logoHome"><img src="image/name.png"></a>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Work</button>
-                    <div class="dropdown-content">
-                        <a href="digitalart.html">Digital</a>
-                        <a href="traditional.html">Traditional</a>
-                    </div>
-                </div>
-                <a href="exhibitions.html">Exhibitions</a>
-                <!-- <a href="https://www.etsy.com/uk/shop/KayLamArtist?ref=seller-platform-mcnav">Shop</a> -->
-                <a href="about.html">Info</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-            </div>
-        </nav>
-    </header>
+  <header class="mainheader">
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <div class="nameLogo">
+          <a href="index.html" id="logoHome"><img src="image/name.png"></a>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Work</button>
+          <div class="dropdown-content">
+            <a href="digitalart.html">Digital</a>
+            <a href="traditional.html">Traditional</a>
+            <a href="adobe.html">Adobe</a>
+          </div>
+        </div>
+        <a href="exhibitions.html">Exhibitions</a>
+        <a href="about.html">Info</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </nav>
+  </header>
 
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-      </script>
+  <div class="content">
 
-    <footer>Copyright &#169 2020 created Kay Lam</footer>
+    <div class="headtext">
+      Adobe
+    </div>
+
+    <div class="sidetext">
+      Commissioned portraits, a gift to Adobe’s 2020 Founders’ Award Recipients in celebration of being selected for one
+      of Adobe’s highest honours.
+    </div>
+
+    <div class="gallery">
+      <a href="image/Carita-Marrow-KayLam.jpg" data-lightbox="mygallery" data-title="Carita Marrow"
+        style="max-width: 100%; max-height: 500px;"><img src="image/Carita-Marrow-KayLam.jpg"></a>
+      <a href="image/Patricia-Patterson-KayLam.jpg" data-lightbox="mygallery" data-title="Patricia Patterson"
+        style="max-width: 100%; max-height: 500px;"><img src="image/Patricia-Patterson-KayLam.jpg"></a>
+      <a href="image/Danielle-Vitale-KayLam.jpg" data-lightbox="mygallery" data-title="Danielle Vitale"
+        style="max-width: 100%; max-height: 500px;"><img src="image/Danielle-Vitale-KayLam.jpg"></a>
+    </div>
+
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <footer>Copyright &#169 2021 created Kay Lam</footer>
 
 </body>
 
