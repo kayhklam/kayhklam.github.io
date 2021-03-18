@@ -154,9 +154,9 @@ html, body {
   margin: 0 auto;
   padding-right: 3vw;
   padding-left: 3vw;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-  min-height: calc(100vh - 133px - 25px);
+  /* padding-top: 3vw; */
+  padding-bottom: 0;
+  min-height: calc(100vh - 155px - 25px);
 }
 /* 
 .digital-container {
@@ -167,13 +167,12 @@ html, body {
 } */
 
 .gallery{
-  margin: 10px;
   text-align: center;
 }
 
 .gallery img {
-  max-height: 400px;
-  padding: 3px;
+  max-height: 420px;
+  padding: 6px;
 }
 .gallery img:hover{
   /* filter: grayscale(100%); */
@@ -227,7 +226,16 @@ h3 {
   font-weight: 300;
 }
 
+h4 {
+  font-size: 16px;
+  font-weight: 300;
+  color: darkslategrey;
+  text-align: left;
+  margin: 10px 0;
+  padding: 0 28px;
+}
 p {
+
   font-size: 18px;
   /* margin-left: 10px; */
   color: darkslategrey;
@@ -263,26 +271,24 @@ p {
 
 /* ABOUT */
 
-.aboutcontent {
-  background-color: white;
-  display: block;
-  position: relative;
-  margin:  20px auto;
-  max-width: 500px;
-  height: auto;
-  text-align: center;
-  padding: 10px;
-  overflow: auto;
+h1 {
+  font-size: 50px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 0;
 }
 
 .abouttext {
  display: block;
  text-align: left;
- max-width: 600px;
+ min-width: 60%;
  height: auto;
  overflow: auto;
  clear: left;
  padding: 10px;
+ margin: auto;
+ font-size: 20px;
 }
 
 .ig {
@@ -442,14 +448,17 @@ footer {
    text-align: center;
    /* padding: 10px 20px; */
   }
+
   .gallery img{
-    padding: 0;
-    max-height: 500px;
-    max-width: 100%;
+    padding: 2px;
+    max-height: 200px;
+    max-width: 40%;
   }
 
   .sidetext {
     max-width: 100%;
   }
+
+
   
 }
