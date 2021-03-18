@@ -285,6 +285,11 @@ p {
  padding: 10px;
 }
 
+.ig {
+  display: block;
+  text-align: center;
+}
+
 
 /* Caption text */
 
