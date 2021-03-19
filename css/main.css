@@ -37,7 +37,7 @@ html, body {
 }
 
 .nameLogo img{
-  max-height: 90px;
+  max-height: 75px;
 }
 
 .topnav {
@@ -56,7 +56,7 @@ html, body {
   color: darkslategrey;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   padding: 10px 40px;
   text-align: center;
 }
@@ -80,7 +80,7 @@ html, body {
   color:darkslategrey;
   font-size: 12px;
   font-family: microsoft tai le;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   padding: 10px 40px;
   text-transform: uppercase;
   outline: none;
@@ -111,31 +111,21 @@ html, body {
   color: lightcoral;
 }
 
-.homecontent {
+/* .homecontent {
   background-color: white;
   display: block;
   margin: auto;
-  /* padding: 40px 0 0 0; */
-  min-height: calc(100vh - 133px - 25px);
-}
-
-.homeimage {
-  background-color: white;
-  position: relative;
-  display: block;
-  max-width: 100%;
-  padding: 10px;
-}
+  
+} */
 
 .homeimage img{
   display: block;
-  height: auto;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.hometext {
+/* .hometext {
   background-color: white;
   color: darkslategrey;
   text-align: center;
@@ -144,7 +134,8 @@ html, body {
   font-size: 22px;
   font-weight: 300;
   padding: 20px;
-}
+} */
+
 /* MAIN IMAGE CONTENT */
 .content {
   background-color: white;
@@ -156,7 +147,7 @@ html, body {
   padding-left: 3vw;
   /* padding-top: 3vw; */
   padding-bottom: 0;
-  min-height: calc(100vh - 155px - 25px);
+  min-height: calc(100vh - 213px - 25px);
 }
 /* 
 .digital-container {
@@ -175,6 +166,34 @@ html, body {
   padding: 6px;
 }
 .gallery img:hover{
+  /* filter: grayscale(100%); */
+  transform: scale(1.008);
+}
+
+.gallery-adobe{
+  text-align: center;
+}
+
+.gallery-adobe img {
+  max-width: 100%;
+  max-height: 600px;
+  padding: 6px;
+}
+.gallery-adobe img:hover{
+  /* filter: grayscale(100%); */
+  transform: scale(1.008);
+}
+
+.gallery-nhsbook{
+  text-align: center;
+}
+
+.gallery-nhsbook img {
+  max-width: 100%;
+  max-height: 400px;
+  padding: 0px;
+}
+.gallery-nhsbook img:hover{
   /* filter: grayscale(100%); */
   transform: scale(1.008);
 }
@@ -218,10 +237,43 @@ html, body {
   margin-right: auto;
 }
 
+/* bottom navigation */
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  width: auto;
+}
+
+h2 {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: 0px;
+  padding-right: 60px;
+}
+
+
+.left {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  margin-right: auto;
+  margin-left: 0px;
+  padding-left: 60px;
+}
+
+.left a {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 h3 {
   font-size: 30px;
-  /* text-transform: uppercase; */
   letter-spacing: 0.5px;
   font-weight: 300;
 }
@@ -304,7 +356,7 @@ h1 {
   color: darkslategrey;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   font-size: 20px;
   font-weight: 300;
   padding: 10px;
@@ -314,12 +366,16 @@ a {
   color: black;
 }
 
+a:hover{
+  color:lightcoral;
+}
+
 .sidetext {
   max-width: 70%;
   text-align: left;
   /* margin: auto; */
   display: block;
-  padding: 17px;
+  padding: 0px;
 }
 
 .slidenav {
@@ -376,14 +432,18 @@ a {
   color: darkslategrey;
 }
 
+#insta:hover{
+  color:coral;
+}
+
 /* FOOTER */
 footer {
   clear: both;
   text-align: center;
   color: darkslategrey;
   font-weight: 200;
-  font-size: 12px;
-  padding: 5px 0;
+  font-size: 15px;
+  padding: 10px 0;
 }
 
 
@@ -412,7 +472,19 @@ footer {
    right: 20px;
   }
 }
- 
+
+@media screen and (max-width: 1876px){
+.gallery img{
+  max-width: 18%;
+}
+}
+
+@media screen and (max-width: 1580px){
+.gallery-adobe img{
+  max-width: 30%;
+}
+}
+
 @media screen and (max-width: 730px){
   .body{overflow: auto !important;}
 }
@@ -450,15 +522,25 @@ footer {
   }
 
   .gallery img{
-    padding: 2px;
+    padding: 0;
     max-height: 200px;
-    max-width: 40%;
+    max-width: 45%;
+  }
+
+  .gallery-adobe img{
+    padding: 0;
+    max-height: 500px;
+    max-width: 100%;
+    margin-bottom: 6px;
   }
 
   .sidetext {
     max-width: 100%;
+    margin: 10px;
   }
 
-
+  h2, .left {
+    font-size: 18px;
+  }
   
 }

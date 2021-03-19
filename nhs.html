@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exhibitions</title>
+  <link rel="shortcut icon" type="image/png" href="image/favicon.png">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/lightbox.min.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  <script src="js/digitalart.js"></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+
+<body>
+
+  <header class="mainheader">
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <div class="nameLogo">
+          <a href="index.html" id="logoHome"><img src="image/name.png"></a>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Paintings</button>
+          <div class="dropdown-content">
+            <a href="digitalart.html">Digital</a>
+            <a href="traditional.html">Traditional</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Clients</button>
+          <div class="dropdown-content">
+            <a href="adobe.html">Adobe</a>
+            <a href="okolashes.html">OKO Lashes</a>
+            <a href="watermargin.html">watermargin</a>
+            <a href="gameshub.html">GamesHub</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn" style="color: lightcoral;">Exhibitions</button>
+          <div class="dropdown-content">
+            <a href="nhs.html" style="color: lightcoral;">&num;PortraitsForNHSHeroes</a>
+            <a href="hoipolloi.html">Hoi Polloi</a>
+          </div>
+        </div>
+        <a href="about.html">Info</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="content">
+
+    <div class="headtext">Exhibitions</div>
+
+    <div class="sidetext">
+      <h3>Portraits For NHS Heroes</h3>
+      <p>&num;PortraitsForNHSHeroes was created by Tom Croft on Instagram, an initiative to honour the heroes of
+        2020 pandemic and I was inspired to take part in this project whilst in lockdown. Some were on the
+        frontlines of COVID-19 response and gifting portraits to the recipients has shone a positive light in these
+        challenging times, a way to
+        show my gesture of appreciation and thanks to honour our frontline heroes. </p>
+      <p><a href="https://artsandculture.google.com/asset/judith-mercader-kay-lam/vwFWZh4iAtnNXg">Portraits For NHS
+          Heroes online exhibition official website by Google Arts &amp; Culture</a></p>
+      <p><a href="https://www.bloomsbury.com/uk/portraits-for-nhs-heroes-9781448218004/"><i>Portraits For NHS
+            Heroes</i></a> a book published by Bloomsbury Publishing w/300 artists.</p>
+    </div>
+    <br>
+
+    <div class="gallery">
+      <a href="image/exhibitions/nhs2.jpg" data-lightbox="mygallery"
+        data-title="Judith, an ICU Nurse who worked in Covid-19 wards at John Racliffe's Hospital in Oxford, UK"><img
+          src="image/thumbnails/nhs2.jpg" style="max-width: 30%; max-height: 600px;"></a>
+      <a href="image/exhibitions/nhs1.jpg" data-lightbox="mygallery"
+        data-title="Leon, a Nurse who worked in Covid-19 wards at John Radcliffe's Hospital in Oxford, UK"><img
+          src="image/thumbnails/nhs1.jpg" style="max-width: 30%; max-height: 600px;"></a>
+      <a href="image/exhibitions/nhs3.jpg" data-lightbox="mygallery"
+        data-title="Josh, a Pharmacist who looked after Covid patients at a hospital based in Swansea, UK"><img
+          src="image/thumbnails/nhs3.jpg" style="max-width: 30%; max-height: 600px;"></a>
+      <a href="image/exhibitions/nhs4.jpg" data-lightbox="mygallery"
+        data-title="Vicki, a Podiatrist Doctor based in Essex, UK"><img src="image/thumbnails/nhs4vicki.jpg"
+          style="max-width: 30%; max-height: 600px;"></a>
+      <a href="image/exhibitions/nhs5.jpg" data-lightbox="mygallery"
+        data-title="Iszy, a Junior Doctor working at Diana Princess of Wales Hospital in Grimsby, UK"><img
+          src="image/thumbnails/nhs5.jpg" style="max-width: 30%; max-height: 600px;"></a>
+      <a href="image/exhibitions/nhs6.jpg" data-lightbox="mygallery"
+        data-title="Aneeta, a Consultant Interventional Radiologist at Guy's and St. Thomas's Hospital in London, UK"><img
+          src="image/thumbnails/nhs6.jpg" style="max-width: 30%; max-height: 600px;"></a>
+    </div>
+
+    <br>
+    <div class="gallery-nhsbook">
+      <a href="image/exhibitions/NHS book whole cover.jpg" data-lightbox="mygallery" data-title="Book cover"><img
+          src="image/exhibitions/NHS book whole cover.jpg"></a>
+      <a href="image/exhibitions/NHS book page angle.jpg" data-lightbox="mygallery" data-title=""><img
+          src="image/exhibitions/NHS book page angle.jpg"></a>
+      <a href="image/exhibitions/NHS book page.jpg" data-lightbox="mygallery" data-title="page 188"><img
+          src="image/exhibitions/NHS book page.jpg"></a>
+    </div>
+  </div>
+
+  <section class="bottom-nav">
+    <h2><a href="hoipolloi.html">Hoi Polloi &rarr;</a></h2>
+  </section>
+
+  <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <footer>Copyright &#169 2021 created by Kay Lam</footer>
+
+</body>
+
+</html>
