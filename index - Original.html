@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kay Lam Artist</title>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="image/favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<body>
+
+  <header class="mainheader">
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <div class="nameLogo">
+          <a href="index.html" id="logoHome"><img src="image/name.png"></a>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Paintings</button>
+          <div class="dropdown-content">
+            <a href="digitalart.html">Digital</a>
+            <a href="traditional.html">Traditional</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Clients</button>
+          <div class="dropdown-content">
+            <a href="adobe2022.html">Adobe 2022</a>
+            <a href="adobe.html">Adobe 2021</a>
+            <!-- <a href="okolashes.html">OKO Lashes</a>
+            <a href="watermargin.html">watermargin</a>
+            <a href="gameshub.html">GamesHub</a> -->
+          </div>
+        </div>
+        <!-- <div class="dropdown">
+          <button class="dropbtn">Exhibitions</button>
+          <div class="dropdown-content">
+            <a href="nhs.html">&num;PortraitsForNHSHeroes</a>
+            <a href="hoipolloi.html">Hoi Polloi</a>
+          </div>
+        </div> -->
+        <a href="https://www.behance.net/kaylam" target="_blank">Behance</a>
+        <a href="about.html">Info</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="content">
+
+    <div class="headtext">Visual Artist + Illustrator</div>
+
+    <div class="homeimage">
+      <img src="image/homepic.png">
+    </div>
+
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <footer>Copyright &#169 2022 created by Kay Lam</footer>
+
+</body>
+
+</html>
