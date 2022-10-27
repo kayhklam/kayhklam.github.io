@@ -1,44 +1,35 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color:white;
+  background-color: white;
   font-family: Microsoft Tai Le;
   font-weight: bolder;
   position: relative;
   padding-bottom: 35px;
   overflow-wrap: break-word;
-  /* min-height: 100vh; */
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  /* height: 100%; */
 }
 
 /* NAVIGATION */
 
-.mainheader, .topnav {
+.mainheader,
+.topnav {
   position: fixed;
   width: auto;
   top: 0;
   padding: 0;
-  z-index: 9999!important;
-  
-  /* display: block; */
-  
+  z-index: 9999 !important;
+
 }
 
 .nameLogo {
-  /* display: inline-block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  padding: 10px;
-  margin: 0 20px;
-  text-align: right; */
   display: block;
   float: right;
   padding: 0;
@@ -47,36 +38,33 @@ html, body {
   margin: 0 80px;
 }
 
-.nameLogo img{
+.nameLogo img {
   max-height: 79px;
   max-width: 100%;
   top: 0;
   z-index: 7999;
 }
 
-.titlesnav{
+.titlesnav {
   display: inline-block;
-  /* margin: 10px 1.5em 10px 4%; */
   position: relative;
   zoom: 1;
   padding: 10px;
-  /* margin-left: 5vw; */
   width: auto;
 }
 
 .topnav {
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
   border: none;
   font-size: 12px;
   font-weight: bolder;
   padding: 30px;
   display: inline-block;
   width: -webkit-fill-available;
-  
+
 }
 
 .topnav a {
-  /* display: inline-block; */
   color: darkslategrey;
   font-weight: bolder;
   text-decoration: none;
@@ -85,9 +73,11 @@ html, body {
   padding: 10px 20px;
   text-align: center;
 }
-.topnav a:hover, .dropdown .dropbtn:hover{
+
+.topnav a:hover,
+.dropdown .dropbtn:hover {
   color: lightcoral;
- }
+}
 
 .topnav .icon {
   display: none;
@@ -95,14 +85,13 @@ html, body {
 
 .dropdown {
   display: inline-block;
-  /* position: relative; */
 }
 
 
 .dropdown .dropbtn {
   background: none;
   border: none;
-  color:darkslategrey;
+  color: darkslategrey;
   font-size: 12px;
   font-family: microsoft tai le;
   font-weight: bolder;
@@ -123,7 +112,6 @@ html, body {
 
 
 .dropdown-content a {
-  /* background-color: rgba(248, 248, 248, 0.950); */
   background-color: none;
   color: darkslategrey;
   display: block;
@@ -143,16 +131,16 @@ html, body {
   display: block;
   margin: auto;
   
-} */
+}
 
-.homeimage img{
+.homeimage img {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* .hometext {
+.hometext {
   background-color: white;
   color: darkslategrey;
   text-align: center;
@@ -176,6 +164,7 @@ html, body {
   padding-bottom: 0;
   min-height: calc(100vh - 213px - 25px);
 }
+
 /* 
 .digital-container {
   background-color: white;
@@ -184,7 +173,7 @@ html, body {
   width: 100%;
 } */
 
-.gallery{
+.gallery {
   text-align: center;
 }
 
@@ -193,12 +182,13 @@ html, body {
   margin: 0;
   padding: 0;
 }
-.gallery img:hover{
+
+.gallery img:hover {
   /* filter: grayscale(100%); */
   transform: scale(1.008);
 }
 
-.gallery-adobe{
+.gallery-adobe {
   text-align: center;
 }
 
@@ -207,12 +197,13 @@ html, body {
   max-height: 600px;
   padding: 6px;
 }
-.gallery-adobe img:hover{
+
+.gallery-adobe img:hover {
   /* filter: grayscale(100%); */
   transform: scale(1.008);
 }
 
-.gallery-nhsbook{
+.gallery-nhsbook {
   text-align: center;
 }
 
@@ -221,16 +212,18 @@ html, body {
   max-height: 400px;
   padding: 0px;
 }
-.gallery-nhsbook img:hover{
+
+.gallery-nhsbook img:hover {
   /* filter: grayscale(100%); */
   transform: scale(1.008);
 }
 
-.digital-small{
+.digital-small {
   cursor: zoom-in;
   user-select: none;
 }
-.digital-large{
+
+.digital-large {
   cursor: zoom-out;
   display: inline-block;
   width: 100%;
@@ -240,14 +233,16 @@ html, body {
   left: 0;
   user-select: none;
 }
-.digital img{
+
+.digital img {
   display: block;
   height: auto;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-.digital-small img{
+
+.digital-small img {
   display: block;
   width: auto;
   height: auto;
@@ -256,7 +251,8 @@ html, body {
   margin-left: auto;
   margin-right: auto;
 }
-.digital-large img{
+
+.digital-large img {
   width: auto;
   height: auto;
   max-height: 100vh;
@@ -312,22 +308,21 @@ h4 {
   font-family: Microsoft Tai Le;
   font-size: 16px;
   font-weight: bolder;
-  /* font-weight: 300; */
   color: darkslategrey;
   text-align: left;
   margin: 10px 0;
   padding: 0 28px;
 }
-p {
 
+p {
   font-size: 18px;
-  /* margin-left: 10px; */
-  color:darkslategrey;
+  color: darkslategrey;
   font-weight: 300;
 }
 
 /* Next & prev buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   padding: 15px;
   color: darkslategrey;
@@ -336,7 +331,6 @@ p {
   user-select: none;
   z-index: 9;
   top: auto;
-  /* border-radius: 100%; */
   display: inline-flex;
   width: 8px;
   height: 8px;
@@ -345,9 +339,13 @@ p {
   justify-content: center;
 }
 
-.next {float: right;}
+.next {
+  float: right;
+}
 
-.prev {float: left;}
+.prev {
+  float: left;
+}
 
 /* .prev:hover, .next:hover {
   background-color: rgba(120,120,120,0.2);
@@ -365,16 +363,16 @@ h1 {
 }
 
 .abouttext {
- display: block;
- text-align: left;
- min-width: 60%;
- height: auto;
- overflow: auto;
- clear: left;
- padding: 10px;
- margin: auto;
- font-size: 20px;
- color: darkslategrey;
+  display: block;
+  text-align: left;
+  min-width: 60%;
+  height: auto;
+  overflow: auto;
+  clear: left;
+  padding: 10px;
+  /* margin: auto; */
+  font-size: 20px;
+  color: darkslategrey;
 }
 
 .socials {
@@ -387,13 +385,12 @@ h1 {
 
 .headtext {
   background-color: white;
-  color:darkslategrey;
+  color: darkslategrey;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 20px;
   font-weight: bolder;
-  /* font-weight: 300; */
   padding: 10px;
 }
 
@@ -401,14 +398,13 @@ a {
   color: darkslategrey;
 }
 
-a:hover{
-  color:lightcoral;
+a:hover {
+  color: lightcoral;
 }
 
 .sidetext {
   max-width: 70%;
   text-align: left;
-  /* margin: auto; */
   display: block;
   padding: 0px;
 }
@@ -430,7 +426,9 @@ a:hover{
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .dot:hover {
+
+.active,
+.dot:hover {
   background-color: darkslategrey;
 }
 
@@ -461,18 +459,15 @@ a:hover{
   transition-property: background-color, color;
 }
 
-.downcontent {
+/* Coming Soon Down Page */
 
+.downcontent {
   background-color: white;
   position: relative;
   text-align: center;
   width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
-  /* padding-right: 3vw;
-  padding-left: 3vw;
-  padding-top: 10vw;
-  padding-bottom: 0; */
   min-height: calc(100vh - 213px - 25px);
 }
 
@@ -482,17 +477,11 @@ a:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  padding: 10px;
-  text-align: center; */
   max-height: 100px;
 }
 
 #comingsoon {
-  text-align: center; 
+  text-align: center;
   font-weight: 500;
   padding: 5px;
   position: absolute;
@@ -507,14 +496,13 @@ a:hover{
   color: darkslategrey;
 }
 
-#social-icons:hover{
-  color:coral;
+#social-icons:hover {
+  color: coral;
 }
 
 /* FOOTER */
 footer {
   position: fixed;
-  /* clear: both; */
   color: darkslategrey;
   font-weight: 300;
   font-size: 15px;
@@ -524,57 +512,69 @@ footer {
   text-align: center;
 }
 
-
 /* NAVIGATION - RESPONSIVE RULES */
 
-@media screen and (max-width: 900px){
-.slidenav {width:auto;}
-}
- 
-@media screen and (max-width: 730px) {
-  #logoHome, .nameLogo {
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 4px;
+@media screen and (max-width: 900px) {
+  .slidenav {
+    width: auto;
   }
-  .headtext {color: darkslategrey;}
-  .topnav a, .dropdown .dropbtn {
+}
+
+@media screen and (max-width: 730px) {
+
+  #logoHome,
+  .nameLogo {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 4px;
+  }
+
+  .headtext {
+    color: darkslategrey;
+  }
+
+  .topnav a,
+  .dropdown .dropbtn {
     display: none;
   }
+
   .topnav a.icon {
-   position: fixed;
-   display: inline-block;
-   font-size: 30px;
-   padding: 25px 10px;
-   top: 17px;
-   right: 20px;
+    position: fixed;
+    display: inline-block;
+    font-size: 30px;
+    padding: 25px 10px;
+    top: 17px;
+    right: 20px;
   }
 }
 
-@media screen and (max-width: 1876px){
-.gallery img{
-  max-width: 100%;
-}
-}
-
-@media screen and (max-width: 1580px){
-.gallery-adobe img{
-  max-width: 30%;
-}
+@media screen and (max-width: 1876px) {
+  .gallery img {
+    max-width: 100%;
+  }
 }
 
-@media screen and (max-width: 730px){
-  .body{overflow: auto !important;}
+@media screen and (max-width: 1580px) {
+  .gallery-adobe img {
+    max-width: 30%;
+  }
 }
- 
+
+@media screen and (max-width: 730px) {
+  .body {
+    overflow: auto !important;
+  }
+}
+
 @media screen and (max-width: 730px) {
   .topnav.responsive .icon {
-   display: block;
-   right: 20px;
-   top: 0;
-   padding: 25px 10px;
+    display: block;
+    right: 20px;
+    top: 0;
+    padding: 25px 10px;
   }
+
   #myTopnav.topnav.responsive {
     background-color: white;
     line-height: 4em;
@@ -583,32 +583,40 @@ footer {
     top: 0;
     font-size: 20px;
     text-align: center;
-   }
-  .topnav.responsive a {
-   display: block;
-   text-align: center;
   }
+
+  .topnav.responsive a {
+    display: block;
+    text-align: center;
+  }
+
   .topnav.responsive .dropdown {
     display: inline;
     text-align: center;
   }
-  .topnav.responsive .dropdown-content {position:relative;}
-  .topnav.responsive .dropdown-content a{
-   margin: 0 0 5px 0;
-  }
-  .topnav.responsive .dropdown .dropbtn {
-   display: inline-block;
-   text-align: center;
-   font-size: 20px;
+
+  .topnav.responsive .dropdown-content {
+    position: relative;
   }
 
-  .gallery img{
+  .topnav.responsive .dropdown-content a {
+    margin: 0 0 1px 0;
+    padding: 0;
+  }
+
+  .topnav.responsive .dropdown .dropbtn {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .gallery img {
     padding: 0;
     max-height: 100%;
     max-width: 100%;
   }
 
-  .gallery-adobe img{
+  .gallery-adobe img {
     padding: 0;
     max-height: 500px;
     max-width: 100%;
@@ -620,7 +628,12 @@ footer {
     margin: 10px;
   }
 
-  h2, .left {
+  .abouttext {
+    margin: 50px 10px 10px 10px;
+  }
+
+  h2,
+  .left {
     font-size: 18px;
   }
 
@@ -630,5 +643,5 @@ footer {
     padding-top: 30vw;
     padding-bottom: 0;
   }
-  
+
 }
