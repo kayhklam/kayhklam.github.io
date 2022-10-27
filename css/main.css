@@ -365,12 +365,12 @@ h1 {
 .abouttext {
   display: block;
   text-align: left;
-  min-width: 60%;
+  min-width: 70%;
   height: auto;
   overflow: auto;
   clear: left;
-  padding: 10px;
-  /* margin: auto; */
+  padding: 50px 10px 10px 10px;
+  margin: 40px;
   font-size: 20px;
   color: darkslategrey;
 }
@@ -553,6 +553,14 @@ footer {
   .gallery img {
     max-width: 100%;
   }
+  .sidetext {
+    max-width: 100%;
+    margin: 10px;
+  }
+
+  .abouttext {
+    margin: 50px 10px 10px 10px;
+  }
 }
 
 @media screen and (max-width: 1580px) {
@@ -621,15 +629,6 @@ footer {
     max-height: 500px;
     max-width: 100%;
     margin-bottom: 6px;
-  }
-
-  .sidetext {
-    max-width: 100%;
-    margin: 10px;
-  }
-
-  .abouttext {
-    margin: 50px 10px 10px 10px;
   }
 
   h2,
