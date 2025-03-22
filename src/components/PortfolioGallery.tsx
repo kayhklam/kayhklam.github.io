@@ -206,24 +206,24 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
         <DialogContent className="max-w-screen-lg p-0 bg-background/95 backdrop-blur border-none">
           <div className="relative w-full h-full">
             {/* Close button */}
-            <button 
+            {/* <button 
               onClick={closeLightbox}
               className="absolute right-4 top-4 z-50 p-2 bg-background/80 rounded-full hover:bg-background transition-colors duration-200"
             >
               <X className="h-6 w-6" />
-            </button>
+            </button> */}
             
             {/* Navigation buttons */}
             <button 
               onClick={goToPrevious} 
-              className="absolute left-4 top-1/2 -translate-y-1/2 z-50 p-2 bg-background/80 rounded-full hover:bg-background transition-colors duration-200"
+              className="absolute left-4 top-1/2 -translate-y-1/2 z-50 p-1 bg-background/10 rounded-full hover:bg-background/50 transition-colors duration-200 !outline-none"
             >
               <ChevronLeft className="h-6 w-6" />
             </button>
             
             <button 
               onClick={goToNext}
-              className="absolute right-4 top-1/2 -translate-y-1/2 z-50 p-2 bg-background/80 rounded-full hover:bg-background transition-colors duration-200"
+              className="absolute right-4 top-1/2 -translate-y-1/2 z-50 p-1 bg-background/10 rounded-full hover:bg-background/50 transition-colors duration-200 !outline-none"
             >
               <ChevronRight className="h-6 w-6" />
             </button>
@@ -231,7 +231,7 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
             {/* Lightbox content */}
             {currentItem && (
               <div className="flex flex-col md:flex-row h-full">
-                <div className="w-full md:w-3/4 p-4">
+                <div className="w-full md:w-2/3 p-4">
                   <div className="relative w-full h-full max-h-[80vh] flex items-center justify-center">
                     <img 
                       src={currentItem.imageUrl} 
@@ -240,7 +240,7 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
                     />
                   </div>
                 </div>
-                <div className="w-full md:w-1/4 p-6 md:border-l border-border/20">
+                <div className="w-full md:w-1/3 p-6 md:border-l border-border/20">
                   <h2 className="text-2xl md:text-3xl font-serif mb-2">{currentItem.title}</h2>
                   {currentItem.client && (
                     <p className="text-sm font-medium mb-2">

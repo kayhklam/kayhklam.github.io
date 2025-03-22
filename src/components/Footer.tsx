@@ -25,9 +25,6 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
             <a href="#about" className="text-foreground/80 hover:text-foreground transition-colors duration-200 text-sm tracking-wider">
               About
             </a>
-            <a href="#social-media" className="text-foreground/80 hover:text-foreground transition-colors duration-200 text-sm tracking-wider">
-              Social Media
-            </a>
             <a href="#contact" className="text-foreground/80 hover:text-foreground transition-colors duration-200 text-sm tracking-wider">
               Contact
             </a>

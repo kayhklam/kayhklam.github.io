@@ -58,11 +58,11 @@ const About: React.FC<AboutProps> = ({ className }) => {
             <div className="relative">
               {/* <div className="absolute -top-4 -left-4 w-full h-full border border-border"></div> */}
               <div className="relative aspect-[3/4] overflow-hidden">
-                {/* <img 
-                  src="https://source.unsplash.com/random/600x800/?artist,portrait,studio" 
-                  alt="Kay Lam in her studio" 
+                <img 
+                  src="image/me2.jpg" 
+                  alt="Kay Lam in the wild" 
                   className="w-full h-full object-cover"
-                /> */}
+                />
               </div>
             </div>
           </div>
