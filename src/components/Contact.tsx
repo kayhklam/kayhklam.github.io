@@ -22,24 +22,6 @@ const Contact: React.FC<ContactProps> = ({ className }) => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
   
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In a real application, this would connect to a backend service
-    console.log('Form submitted:', formData);
-    
-    toast({
-      title: "Message Sent",
-      description: "Thank you for your message. I'll respond within 2-3 business days.",
-    });
-    
-    setFormData({
-      name: '',
-      email: '',
-      message: '',
-      projectType: 'personal',
-    });
-  };
-
   return (
     <div id="contact" className={cn("py-20", className)}>
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
@@ -114,7 +96,7 @@ const Contact: React.FC<ContactProps> = ({ className }) => {
             </p>
           </div>
           
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form action="https://formspree.io/f/xvgkakdd" method="POST" className="space-y-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label htmlFor="name" className="block text-sm font-medium text-foreground">
