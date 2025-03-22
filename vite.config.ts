@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
+import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
@@ -11,8 +12,10 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    mode === 'development' && componentTagger(),
+    ViteImageOptimizer({
+      jpeg: { quality: 80 }
+    })
   ].filter(Boolean),
   resolve: {
     alias: {
