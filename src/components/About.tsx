@@ -17,7 +17,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
             <h2 className="text-3xl md:text-4xl font-serif mb-6">Kay Lam</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Kay Lam is a digital artist based in Essex, England, whose work captures a unique blend of contemporary 
+                Kay is a digital artist based in Essex, England, whose work captures a unique blend of contemporary 
                 vision and classic portraiture. Growing up with a passion for visual storytelling, she has seamlessly 
                 merged traditional art techniques with the limitless possibilities of digital media. This fusion is at 
                 the heart of her creative practice, allowing her to craft pieces that are both innovative and emotionally resonant.
@@ -30,7 +30,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
               </p>
 
               <p>
-                Recognised by high-profile clients and industry leaders, including collaborations with Adobe, Kay Lam’s portfolio is a testament 
+                Recognised by high-profile clients and industry leaders, including collaborations with Adobe, Kay's portfolio is a testament 
                 to her versatility and vision. Her art not only celebrates the intricacies of human expression but also stands as a bold statement 
                 of modern digital artistry. Through her evolving body of work, Kay continues to redefine the possibilities of portrait art while 
                 inspiring a new generation of artists.
