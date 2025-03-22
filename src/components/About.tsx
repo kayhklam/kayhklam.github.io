@@ -26,7 +26,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
               <p>
                 Her creative process is defined by exploration and experimentation. Kay’s work reflects a deep understanding of colour,
                 form, and composition, achieved through a meticulous balance of digital tools and hand-rendered techniques. Each piece 
-                in her portfolio is a journey of discovery—pushing artistic boundaries and inviting viewers to see the familiar in a fresh, dynamic light.
+                in her portfolio is a journey of discovery pushing artistic boundaries and inviting viewers to see the familiar in a fresh, dynamic light.
               </p>
 
               <p>
@@ -56,13 +56,13 @@ const About: React.FC<AboutProps> = ({ className }) => {
           
           <div className="order-1 md:order-2">
             <div className="relative">
-              <div className="absolute -top-4 -left-4 w-full h-full border border-border"></div>
+              {/* <div className="absolute -top-4 -left-4 w-full h-full border border-border"></div> */}
               <div className="relative aspect-[3/4] overflow-hidden">
-                <img 
+                {/* <img 
                   src="https://source.unsplash.com/random/600x800/?artist,portrait,studio" 
                   alt="Kay Lam in her studio" 
                   className="w-full h-full object-cover"
-                />
+                /> */}
               </div>
             </div>
           </div>

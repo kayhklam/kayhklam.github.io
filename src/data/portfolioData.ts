@@ -19,12 +19,12 @@ export const portfolioCategories: PortfolioCategory[] = [
     id: "digital",
     name: "Digital",
     description: "Digital Portraits",
-    period: "2015-2025"
+    period: "2020-2025"
   },
   {
     id: "adobe",
     name: "Adobe",
-    description: "Portraits drawn for Adobe",
+    description: "Portraits drawn for Adobe Founders",
     period: "2020-2021"
   },
   {
@@ -185,23 +185,44 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     id: "23",
-    title: "Cartia Marrow",
+    title: "Carita Marrow",
     category: "adobe",
-    description: "Cartia Marrow",
+    description: "2020",
     imageUrl: "/image/Carita-Marrow-KayLam.jpg"
   },
   {
     id: "24",
     title: "Patricia Patterson",
     category: "adobe",
-    description: "Patricia Patterson",
+    description: "2020",
     imageUrl: "/image/Patricia-Patterson-KayLam.jpg"
   },
   {
     id: "25",
     title: "Danielle Vitale",
     category: "adobe",
-    description: "Danielle Vitale",
+    description: "2020",
     imageUrl: "/image/Danielle-Vitale-KayLam.jpg"
+  },
+  {
+    id: "26",
+    title: "Eric Kline",
+    category: "adobe",
+    description: "2021",
+    imageUrl: "/image/Eric_Kline.jpg"
+  },
+  {
+    id: "27",
+    title: "Lily Chiu-Watson",
+    category: "adobe",
+    description: "2021",
+    imageUrl: "/image/Lily_Chiu-Watson.jpg"
+  },
+  {
+    id: "28",
+    title: "Gaurav Prince",
+    category: "adobe",
+    description: "2021",
+    imageUrl: "/image/Gaurav_Prince.jpg"
   },
 ];
