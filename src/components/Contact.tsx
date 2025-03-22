@@ -101,51 +101,6 @@ const Contact: React.FC<ContactProps> = ({ className }) => {
             </div>
           </div>
           
-          {/* Podcast Section */}
-          <div className="mb-16">
-            <div className="text-center mb-8">
-              <div className="mb-4 inline-block">
-                <span className="category-chip">Featured</span>
-              </div>
-              <h2 className="text-3xl md:text-4xl font-serif mb-4">Happenus Podcast</h2>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <div className="relative aspect-square">
-                <div className="absolute -top-3 -left-3 w-full h-full border border-border/60"></div>
-                <img 
-                  src="https://images-cf.getpodpage.com/cdn-cgi/image/quality=70,fit=contain,height=150,format=auto,dpr=1/https://s3.us-west-1.amazonaws.com/redwood-labs/showpage/uploads/images/83aae3c0-0364-4293-aebc-c9ab48217780.png" 
-                  alt="Happenus Podcast" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              
-              <div>
-                <h3 className="text-xl font-serif mb-4">Portrait Artist for "Happenus"</h3>
-                <p className="text-muted-foreground mb-6">
-                  I create unique digital portraits for each episode of the acclaimed "Happenus" podcast, 
-                  which features interviews with change leaders around the world. Each portrait 
-                  captures the essence of the guest's style and personality.
-                </p>
-                <p className="text-muted-foreground mb-6">
-                  New episodes are released bi-monthly, featuring my exclusive portrait artwork that 
-                  becomes part of the podcast's visual identity across all platforms.
-                </p>
-                <a 
-                  href="https://www.happenuspod.com/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
-                >
-                  <span className="mr-2">Listen to the podcast</span>
-                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          
           <Separator className="my-16" />
           
           {/* Contact Form Section */}
