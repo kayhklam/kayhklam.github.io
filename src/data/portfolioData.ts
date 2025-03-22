@@ -41,14 +41,14 @@ export const portfolioItems: PortfolioItem[] = [
     title: "FKA TWIGS",
     category: "digital",
     description: "",
-    imageUrl: "/image/Fka_twigs.jpg"
+    imageUrl: "/image/fkatwigs.jpg"
   },
   {
     id: "2",
     title: "RED 2",
     category: "digital",
     description: "",
-    imageUrl: "/image/Study_35.jpg"
+    imageUrl: "/image/study35.jpg"
   },
   {
     id: "3",
@@ -62,7 +62,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: "GREEN",
     category: "digital",
     description: "",
-    imageUrl: "/image/Lady_On_Sofa_.jpg"
+    imageUrl: "/image/ladysofa.jpg"
   },
   {
     id: "5",
@@ -80,10 +80,10 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     id: "7",
-    title: "JEAN MICHEL BASQUIAT",
+    title: "BASQUIAT",
     category: "digital",
     description: "Tribute to Jean Michel Basquiat.",
-    imageUrl: "/image/Jean michel basquiat.jpg"
+    imageUrl: "/image/basquiat.jpg"
   },
   {
     id: "8",
@@ -118,7 +118,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: "CAT'S GOT YOUR BACK",
     category: "digital",
     description: "",
-    imageUrl: "/image/study25-blink.gif"
+    imageUrl: "/image/study25blink.gif"
   },
   {
     id: "13",
@@ -146,7 +146,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: "LOOKING AT YOU",
     category: "digital",
     description: "",
-    imageUrl: "/image/study19-blink.gif"
+    imageUrl: "/image/study19blink.gif"
   },
   {
     id: "17",
@@ -184,46 +184,67 @@ export const portfolioItems: PortfolioItem[] = [
     imageUrl: "/image/saiyon.jpg"
   },
   {
+    id: "22",
+    title: "PINK COAT",
+    category: "digital",
+    description: "",
+    imageUrl: "/image/study9.jpg"
+  },
+  {
+    id: "22",
+    title: "HAIRCLIP",
+    category: "digital",
+    description: "",
+    imageUrl: "/image/study7.jpg"
+  },
+  {
+    id: "22",
+    title: "SIDE PROFILE",
+    category: "digital",
+    description: "",
+    imageUrl: "/image/study12.jpg"
+  },
+  {
     id: "23",
     title: "Carita Marrow",
     category: "adobe",
     description: "Adobe Founders' Award of 2020 winner",
-    imageUrl: "/image/Carita-Marrow-KayLam.jpg"
+    imageUrl: "/image/adobe/caritamarrow.jpg"
   },
   {
     id: "24",
     title: "Patricia Patterson",
     category: "adobe",
     description: "Adobe Founders' Award of 2020 winner",
-    imageUrl: "/image/Patricia-Patterson-KayLam.jpg"
+    imageUrl: "/image/adobe/patriciapatterson.jpg"
   },
   {
     id: "25",
     title: "Danielle Vitale",
     category: "adobe",
     description: "Adobe Founders' Award of 2020 winner",
-    imageUrl: "/image/Danielle-Vitale-KayLam.jpg"
+    imageUrl: "/image/adobe/daniellevitale.jpg"
   },
   {
     id: "26",
     title: "Eric Kline",
     category: "adobe",
     description: "Adobe Founders' Award of 2021 winner",
-    imageUrl: "/image/Eric_Kline.jpg"
+    imageUrl: "/image/adobe/erickline.jpg"
   },
   {
     id: "27",
     title: "Lily Chiu-Watson",
     category: "adobe",
     description: "Adobe Founders' Award of 2021 winner",
-    imageUrl: "/image/Lily_Chiu-Watson.jpg"
+    imageUrl: "/image/adobe/lilychiuwatson.jpg"
   },
   {
     id: "28",
     title: "Gaurav Prince",
     category: "adobe",
     description: "Adobe Founders' Award of 2021 winner",
-    imageUrl: "/image/Gaurav_Prince.jpg"
+    imageUrl: "/image/adobe/gauravprince.jpg"
   },
   {
     id: "29",
