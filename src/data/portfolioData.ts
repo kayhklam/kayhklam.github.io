@@ -288,25 +288,25 @@ export const portfolioItems: PortfolioItem[] = [
     description: "",
     imageUrl: "/image/happenus/abhigya.jpg"
   },
-  {
-    id: "38",
-    title: "Hossein Hosseini",
-    category: "podcast",
-    description: "",
-    imageUrl: "/image/happenus/hossein.jpg"
-  },
-  {
-    id: "39",
-    title: "Samir Chopra",
-    category: "podcast",
-    description: "",
-    imageUrl: "/image/happenus/samir.jpg"
-  },
-  {
-    id: "40",
-    title: "Christine Cook",
-    category: "podcast",
-    description: "",
-    imageUrl: "/image/happenus/christine.jpg"
-  },
+  // {
+  //   id: "38",
+  //   title: "Hossein Hosseini",
+  //   category: "podcast",
+  //   description: "",
+  //   imageUrl: "/image/happenus/hossein.jpg"
+  // },
+  // {
+  //   id: "39",
+  //   title: "Samir Chopra",
+  //   category: "podcast",
+  //   description: "",
+  //   imageUrl: "/image/happenus/samir.jpg"
+  // },
+  // {
+  //   id: "40",
+  //   title: "Christine Cook",
+  //   category: "podcast",
+  //   description: "",
+  //   imageUrl: "/image/happenus/christine.jpg"
+  // },
 ];
