@@ -182,7 +182,6 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
                 <div className="p-4">
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-lg font-serif">{item.title}</h3>
-                    <span className="text-sm text-muted-foreground">{item.year}</span>
                   </div>
                   {item.client && (
                     <p className="text-xs text-muted-foreground mb-2">
@@ -243,7 +242,6 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
                 </div>
                 <div className="w-full md:w-1/4 p-6 md:border-l border-border/20">
                   <h2 className="text-2xl md:text-3xl font-serif mb-2">{currentItem.title}</h2>
-                  <p className="text-muted-foreground mb-4">{currentItem.year}</p>
                   {currentItem.client && (
                     <p className="text-sm font-medium mb-2">
                       Client: <span className="text-muted-foreground">{currentItem.client}</span>
