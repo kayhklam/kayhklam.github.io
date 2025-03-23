@@ -14,18 +14,17 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [filteredItems, setFilteredItems] = useState<PortfolioItem[]>(portfolioItems);
   const [expandedItemId, setExpandedItemId] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentItemIndex, setCurrentItemIndex] = useState<number>(0);
 
-  useEffect(() => {
-    // Simulate loading delay for images
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
+  // useEffect(() => {
+  //   // Simulate loading delay for images
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1000);
     
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   useEffect(() => {
     setFilteredItems(
@@ -169,15 +168,12 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
               <div className="cursor-pointer" onClick={() => openLightbox(item.title)}>
                 <div className={cn(
                   "relative aspect-[3/4] overflow-hidden",
-                  isLoading ? "bg-secondary animate-pulse" : ""
                 )}>
-                  {!isLoading && (
-                    <img 
-                      src={item.imageUrl} 
-                      alt={item.title} 
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                    />
-                  )}
+                  <img 
+                    src={item.imageUrl} 
+                    alt={item.title} 
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
                 </div>
                 <div className="p-4">
                   <div className="flex justify-between items-start mb-2">
