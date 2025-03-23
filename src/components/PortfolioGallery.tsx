@@ -100,7 +100,7 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
   const currentItem = filteredItems[currentItemIndex];
 
   return (
-    <div id={id} className={cn("py-12", className)}>
+    <div id={id} className={cn(className)}>
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-serif font-light mb-4">Work</h2>
