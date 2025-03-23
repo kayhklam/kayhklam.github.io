@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 import path from "path";
-import { componentTagger } from "lovable-tagger";
+import { imageToWebpPlugin } from "vite-plugin-image-to-webp";
+import webfontDownload from "vite-plugin-webfont-dl";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -12,10 +12,8 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' && componentTagger(),
-    ViteImageOptimizer({
-      jpeg: { quality: 80 }
-    })
+    webfontDownload(),
+    imageToWebpPlugin(),
   ].filter(Boolean),
   resolve: {
     alias: {
