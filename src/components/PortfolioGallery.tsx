@@ -45,7 +45,7 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
   };
 
   const openLightbox = (itemId: string) => {
-    const index = filteredItems.findIndex(item => item.id === itemId);
+    const index = filteredItems.findIndex(item => item.title === itemId);
     if (index !== -1) {
       setCurrentItemIndex(index);
       setLightboxOpen(true);
@@ -160,13 +160,13 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredItems.map(item => (
             <div 
-              key={item.id} 
+              key={item.title} 
               className={cn(
                 "group border border-border/40 hover:border-border transition-all duration-300 bg-card",
-                expandedItemId === item.id ? "col-span-2 md:col-span-1" : ""
+                expandedItemId === item.title ? "col-span-2 md:col-span-1" : ""
               )}
             >
-              <div className="cursor-pointer" onClick={() => openLightbox(item.id)}>
+              <div className="cursor-pointer" onClick={() => openLightbox(item.title)}>
                 <div className={cn(
                   "relative aspect-[3/4] overflow-hidden",
                   isLoading ? "bg-secondary animate-pulse" : ""
@@ -190,7 +190,7 @@ const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ className, id }) =>
                   )}
                   <p className={cn(
                     "text-sm text-muted-foreground transition-all duration-300",
-                    expandedItemId === item.id ? "line-clamp-none" : "line-clamp-2"
+                    expandedItemId === item.title ? "line-clamp-none" : "line-clamp-2"
                   )}>
                     {item.description}
                   </p>
