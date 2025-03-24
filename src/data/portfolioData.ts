@@ -24,7 +24,7 @@ export const portfolioCategories: PortfolioCategory[] = [
   {
     id: "adobe",
     name: "Adobe",
-    description: "Portraits drawn for Adobe Founders Award winners",
+    description: "Portraits drawn for the recipients of Adobe's 2020 and 2021 Founders' Award winners",
     period: "2021-2022"
   },
   {
@@ -250,84 +250,84 @@ export const portfolioItems: PortfolioItem[] = [
     id: "29",
     title: "Shawn Hung",
     category: "podcast",
-    description: "Founder and host of Happenus Podcast",
+    description: "Shawn Hung, host and founder of the Happenus Podcast, is a dynamic storyteller and entrepreneur, engaging audiences in thought-provoking conversations about personal growth, innovation, and the impact of human connection.",
     imageUrl: "/image/happenus/shawn.webp"
   },
   {
     id: "30",
     title: "Melati Wijsen",
     category: "podcast",
-    description: "",
+    description: "Melati Wijsen, environmental activist and co-founder of Bye Bye Plastic Bags, is a powerful advocate for youth-led environmental change, working to reduce plastic waste and inspire sustainable living worldwide.",
     imageUrl: "/image/happenus/melati.webp"
   },
   {
     id: "31",
     title: "Kelly Kok",
     category: "podcast",
-    description: "",
+    description: "Kelly Kok, Executive Director of the Jane Goodall Institute Taiwan, is a passionate sustainability advocate and social entrepreneur, leading efforts to protect wildlife and promote environmental conservation in Taiwan.",
     imageUrl: "/image/happenus/kelly.webp"
   },
   {
     id: "32",
     title: "Gab Mejia",
     category: "podcast",
-    description: "",
+    description: "Gab Mejia, National Geographic Explorer and Board of Trustee for WWF Philippines, is a conservation photographer and storyteller who captures the intersection of nature, culture, and climate to inspire environmental awareness and action.",
     imageUrl: "/image/happenus/gab.webp"
   },
   {
     id: "33",
     title: "Pat Boonnitipat",
     category: "podcast",
-    description: "",
+    description: "Pat Boonnitipat, visionary storyteller and filmmaker, is known for his award-winning film How to Make Millions Before Grandma Dies, crafting deeply human narratives that explore identity, societal change, and the power of connection.",
     imageUrl: "/image/happenus/pat.webp"
   },
   {
     id: "34",
     title: "Liya Yu",
     category: "podcast",
-    description: "",
+    description: "Dr. Liya Yu, political neuroscientist and author, explores the intersection of brain science and social justice, advocating for a more inclusive and empathetic political future.",
     imageUrl: "/image/happenus/liya.webp"
   },
   {
     id: "35",
     title: "Glen Weyl",
     category: "podcast",
-    description: "",
+    description: "E. Glen Weyl, Microsoft Research Lead, political economist and technologist, pioneers radical market ideas and decentralized governance to reshape democracy, equity, and the future of digital society.",
     imageUrl: "/image/happenus/glen.webp"
   },
   {
     id: "36",
     title: "Jane Goodall",
     category: "podcast",
-    description: "",
+    description: "Dr. Jane Goodall, renowned primatologist and conservationist, revolutionized our understanding of chimpanzees and continues to inspire global action for wildlife protection and environmental stewardship.",
     imageUrl: "/image/happenus/jane.webp"
   },
   {
     id: "37",
     title: "Abhigya Anand",
     category: "podcast",
-    description: "",
+    description: "Abhigya Anand, a Vedic astrologer and prodigy, deciphers planetary alignments, ancient scriptures, and spiritual wisdom to illuminate humanity’s path through transformation and healing.",
     imageUrl: "/image/happenus/abhigya.webp"
   },
   // {
   //   id: "38",
   //   title: "Hossein Hosseini",
   //   category: "podcast",
-  //   description: "",
+  //   description: "Dr. Hossein Hosseini, a distinguished expert in artificial intelligence and machine learning, pioneers innovative research that bridges technology and human-centered solutions to drive transformative change in various industries.",
   //   imageUrl: "/image/happenus/hossein.webp"
   // },
   // {
   //   id: "39",
   //   title: "Samir Chopra",
   //   category: "podcast",
-  //   description: "",
+  //   description: "Samir Chopra, a philosophical counselor and professor emeritus of philosophy at Brooklyn College and the Graduate Center of the City University of New York, explores the intersection of technology, ethics, and society, critically examining the impact of artificial intelligence on human rights, freedom, and justice.",
   //   imageUrl: "/image/happenus/samir.webp"
   // },
   // {
   //   id: "40",
   //   title: "Christine Cook",
   //   category: "podcast",
-  //   description: "",
+  //   description: "Dr. Christine Cook, a renowned clinical psychologist and mental health advocate, specializes in trauma recovery and emotional well-being, empowering individuals to navigate challenges and achieve personal growth.",
   //   imageUrl: "/image/happenus/christine.webp"
   // },
 ];
