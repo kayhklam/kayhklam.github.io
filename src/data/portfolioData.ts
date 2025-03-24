@@ -319,14 +319,14 @@ export const portfolioItems: PortfolioItem[] = [
     id: "35",
     title: "Glen Weyl",
     category: "podcast",
-    description: "E. Glen Weyl, Microsoft Research Lead, political economist and technologist, pioneers radical market ideas and decentralized governance to reshape democracy, equity, and the future of digital society.",
+    description: "E. Glen Weyl, Microsoft Research Lead, political economist and technologist, pioneers radical market ideas and decentralised governance to reshape democracy, equity, and the future of digital society.",
     imageUrl: "/image/happenus/glen.webp"
   },
   {
     id: "36",
     title: "Jane Goodall",
     category: "podcast",
-    description: "Dr. Jane Goodall, renowned primatologist and conservationist, revolutionized our understanding of chimpanzees and continues to inspire global action for wildlife protection and environmental stewardship.",
+    description: "Dr. Jane Goodall, renowned primatologist and conservationist, revolutionised our understanding of chimpanzees and continues to inspire global action for wildlife protection and environmental stewardship.",
     imageUrl: "/image/happenus/jane.webp"
   },
   {
@@ -340,21 +340,21 @@ export const portfolioItems: PortfolioItem[] = [
   //   id: "38",
   //   title: "Hossein Hosseini",
   //   category: "podcast",
-  //   description: "Dr. Hossein Hosseini, a distinguished expert in artificial intelligence and machine learning, pioneers innovative research that bridges technology and human-centered solutions to drive transformative change in various industries.",
+  //   description: "Dr. Hossein Hosseini, a distinguished expert in artificial intelligence and machine learning, pioneers innovative research that bridges technology and human-centred solutions to drive transformative change in various industries.",
   //   imageUrl: "/image/happenus/hossein.webp"
   // },
   // {
   //   id: "39",
   //   title: "Samir Chopra",
   //   category: "podcast",
-  //   description: "Samir Chopra, a philosophical counselor and professor emeritus of philosophy at Brooklyn College and the Graduate Center of the City University of New York, explores the intersection of technology, ethics, and society, critically examining the impact of artificial intelligence on human rights, freedom, and justice.",
+  //   description: "Samir Chopra, a philosophical counsellor and professor emeritus of philosophy at Brooklyn College and the Graduate Center of the City University of New York, explores the intersection of technology, ethics, and society, critically examining the impact of artificial intelligence on human rights, freedom, and justice.",
   //   imageUrl: "/image/happenus/samir.webp"
   // },
   // {
   //   id: "40",
   //   title: "Christine Cook",
   //   category: "podcast",
-  //   description: "Dr. Christine Cook, a renowned clinical psychologist and mental health advocate, specializes in trauma recovery and emotional well-being, empowering individuals to navigate challenges and achieve personal growth.",
+  //   description: "Dr. Christine Cook, a renowned clinical psychologist and mental health advocate, specialises in trauma recovery and emotional well-being, empowering individuals to navigate challenges and achieve personal growth.",
   //   imageUrl: "/image/happenus/christine.webp"
   // },
 ];
