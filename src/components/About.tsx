@@ -34,10 +34,10 @@ const About: React.FC<AboutProps> = ({ className }) => {
                 of modern digital artistry. Through her evolving body of work, Kay continues to redefine the possibilities of portrait art.
               </p>
             </div>
-            <div className="mt-8 border-t border-border pt-6">
+            {/* <div className="mt-8 border-t border-border pt-6">
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                 <div>
-                  <h3 className="text-3xl font-serif mb-2">10+</h3>
+                  <h3 className="text-3xl font-serif mb-2">7+</h3>
                   <p className="text-sm text-muted-foreground">Years Experience</p>
                 </div>
                 <div>
@@ -49,7 +49,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
                   <p className="text-sm text-muted-foreground">Publications</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="order-1 md:order-2">
