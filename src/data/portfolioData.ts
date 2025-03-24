@@ -22,6 +22,12 @@ export const portfolioCategories: PortfolioCategory[] = [
     period: "2020- present"
   },
   {
+    id: "nhs",
+    name: "NHS Portraits",
+    description: "Participated in the #PortraitsForNHSHeroes online exhibition, offering free portraits to NHS key workers during the UK lockdown, with a feature in the 'Portraits For NHS Heroes' fine art book initiated by Tom Croft and published by Bloomsbury Publishing.",
+    period: "2020"
+  },
+  {
     id: "adobe",
     name: "Adobe",
     description: "Portraits drawn for the recipients of Adobe's 2020 and 2021 Founders' Award winners",
@@ -203,6 +209,27 @@ export const portfolioItems: PortfolioItem[] = [
     category: "digital",
     description: "",
     imageUrl: "/image/study12.webp"
+  },
+  {
+    id: "23",
+    title: "Portraits For NHS Heroes",
+    category: "nhs",
+    description: "Fine art book initiated by Tom Croft and published by Bloomsbury Publishing",
+    imageUrl: "/image/nhs/book.webp"
+  },
+  {
+    id: "23",
+    title: "Judtih Mercader",
+    category: "nhs",
+    description: "Judith was working as an ICU Nurse on the front lines of a Covid-19 ward in Oxford, UK",
+    imageUrl: "/image/nhs/judith.webp"
+  },
+  {
+    id: "23",
+    title: "",
+    category: "nhs",
+    description: "Featured in the 'Portraits For NHS Heroes' fine art book.",
+    imageUrl: "/image/nhs/page.webp"
   },
   {
     id: "23",
