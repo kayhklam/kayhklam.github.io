@@ -25,6 +25,7 @@ const Navigation: React.FC<NavigationProps> = ({ className }) => {
   const navLinks = [
     { label: 'Portfolio', href: '#portfolio' },
     { label: 'About', href: '#about' },
+    { label: 'Social', href: '#social' },
     { label: 'Contact', href: '#contact' },
   ];
 
