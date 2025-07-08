@@ -41,7 +41,7 @@ export const portfolioCategories: PortfolioCategory[] = [
   },
 ];
 
-export const portfolioItems: PortfolioItem[] = [
+const allItems: PortfolioItem[] = [
   {
     id: "1",
     title: "FKA TWIGS",
@@ -336,13 +336,13 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Abhigya Anand, a Vedic astrologer and prodigy, deciphers planetary alignments, ancient scriptures, and spiritual wisdom to illuminate humanity’s path through transformation and healing.",
     imageUrl: "/image/happenus/abhigya.webp"
   },
-  // {
-  //   id: "38",
-  //   title: "Hossein Hosseini",
-  //   category: "podcast",
-  //   description: "Dr. Hossein Hosseini, a distinguished expert in artificial intelligence and machine learning, pioneers innovative research that bridges technology and human-centred solutions to drive transformative change in various industries.",
-  //   imageUrl: "/image/happenus/hossein.webp"
-  // },
+  {
+    id: "38",
+    title: "Hossein Hosseini",
+    category: "podcast",
+    description: "Dr. Hossein Hosseini, a distinguished expert in artificial intelligence and machine learning, pioneers innovative research that bridges technology and human-centred solutions to drive transformative change in various industries.",
+    imageUrl: "/image/happenus/hossein.webp"
+  },
   // {
   //   id: "39",
   //   title: "Samir Chopra",
@@ -358,3 +358,10 @@ export const portfolioItems: PortfolioItem[] = [
   //   imageUrl: "/image/happenus/christine.webp"
   // },
 ];
+
+const podcasts = allItems.filter(item => item.category === "podcast")
+  .sort((a, b) => Number(b.id) - Number(a.id));
+
+const others = allItems.filter(item => item.category !== "podcast");
+
+export const portfolioItems: PortfolioItem[] = [...others, ...podcasts];
